@@ -26,7 +26,7 @@
 
 <div align="left">
 <ol>
-	<li>Run <code>.sh</code> to compile <code>Main</code> class and then proceed to run <code>run.sh</code></li>
+	<li>Run <code>compile.sh</code> to generate <code>Main</code> class and then proceed to run <code>run.sh</code></li>
 	<li><code>Main</code> class shall retrieve all inbox emails with subject title containing <code>Case Notification</code> and <code>CaseID</code> and output all JSON-formatted case details onto console.</li>
 </ol>
 

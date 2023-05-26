@@ -1,0 +1,6272 @@
+{
+  "_Account": {
+    "Properties": [
+      "AccountType",
+      "Application",
+      "AutoDiscoverConnectionMode",
+      "AutoDiscoverXml",
+      "Class",
+      "CurrentUser",
+      "DeliveryStore",
+      "DisplayName",
+      "ExchangeConnectionMode",
+      "ExchangeMailboxServerName",
+      "ExchangeMailboxServerVersion",
+      "IOlkAccount",
+      "Parent",
+      "Session",
+      "SmtpAddress",
+      "UserName"
+    ],
+    "Methods": [
+      "GetAddressEntryFromID",
+      "GetRecipientFromID"
+    ]
+  },
+  "_AccountRuleCondition": {
+    "Properties": [
+      "Account",
+      "Application",
+      "Class",
+      "ConditionType",
+      "Enabled",
+      "Parent",
+      "Session"
+    ]
+  },
+  "_Accounts": {
+    "Properties": [
+      "Application",
+      "Class",
+      "Count",
+      "Item[]",
+      "Parent",
+      "Session"
+    ]
+  },
+  "_AccountSelector": {
+    "Properties": [
+      "Application",
+      "Class",
+      "Parent",
+      "SelectedAccount",
+      "Session"
+    ]
+  },
+  "_AddressRuleCondition": {
+    "Properties": [
+      "Address",
+      "Application",
+      "Class",
+      "ConditionType",
+      "Enabled",
+      "Parent",
+      "Session"
+    ]
+  },
+  "_Application": {
+    "Properties": [
+      "AnswerWizard",
+      "Application",
+      "Assistance",
+      "Assistant",
+      "Class",
+      "COMAddIns",
+      "DefaultProfileName",
+      "Explorers",
+      "FeatureInstall",
+      "Inspectors",
+      "IsTrusted",
+      "LanguageSettings",
+      "Name",
+      "Parent",
+      "PickerDialog",
+      "ProductCode",
+      "Reminders",
+      "Session",
+      "TimeZones",
+      "Version"
+    ],
+    "Methods": [
+      "ActiveExplorer",
+      "ActiveInspector",
+      "ActiveWindow",
+      "AdvancedSearch",
+      "CopyFile",
+      "CreateItem",
+      "CreateItemFromTemplate",
+      "CreateObject",
+      "GetNamespace",
+      "GetNewNickNames",
+      "GetObjectReference",
+      "IsSearchSynchronous",
+      "Quit",
+      "RefreshFormRegionDefinition"
+    ]
+  },
+  "_AppointmentItem": {
+    "Properties": [
+      "Actions",
+      "AllDayEvent",
+      "Application",
+      "Attachments",
+      "AutoResolvedWinner",
+      "BillingInformation",
+      "Body",
+      "BusyStatus",
+      "Categories",
+      "Class",
+      "Companies",
+      "ConferenceServerAllowExternal",
+      "ConferenceServerPassword",
+      "Conflicts",
+      "ConversationID",
+      "ConversationIndex",
+      "ConversationTopic",
+      "CreationTime",
+      "DownloadState",
+      "Duration",
+      "End",
+      "EndInEndTimeZone",
+      "EndTimeZone",
+      "EndUTC",
+      "EntryID",
+      "ForceUpdateToAllAttendees",
+      "FormDescription",
+      "GetInspector",
+      "GlobalAppointmentID",
+      "Importance",
+      "InternetCodepage",
+      "IsConflict",
+      "IsOnlineMeeting",
+      "IsRecurring",
+      "ItemProperties",
+      "LastModificationTime",
+      "Links",
+      "Location",
+      "MAPIOBJECT",
+      "MarkForDownload",
+      "MeetingStatus",
+      "MeetingWorkspaceURL",
+      "MessageClass",
+      "Mileage",
+      "NetMeetingAutoStart",
+      "NetMeetingDocPathName",
+      "NetMeetingOrganizerAlias",
+      "NetMeetingServer",
+      "NetMeetingType",
+      "NetShowURL",
+      "NoAging",
+      "OptionalAttendees",
+      "Organizer",
+      "OutlookInternalVersion",
+      "OutlookVersion",
+      "Parent",
+      "PropertyAccessor",
+      "Recipients",
+      "RecurrenceState",
+      "ReminderMinutesBeforeStart",
+      "ReminderOverrideDefault",
+      "ReminderPlaySound",
+      "ReminderSet",
+      "ReminderSoundFile",
+      "ReplyTime",
+      "RequiredAttendees",
+      "Resources",
+      "ResponseRequested",
+      "ResponseStatus",
+      "RTFBody",
+      "Saved",
+      "SendUsingAccount",
+      "Sensitivity",
+      "Session",
+      "Size",
+      "Start",
+      "StartInStartTimeZone",
+      "StartTimeZone",
+      "StartUTC",
+      "Subject",
+      "UnRead",
+      "UserProperties"
+    ],
+    "Methods": [
+      "ClearRecurrencePattern",
+      "Close",
+      "Copy",
+      "CopyTo",
+      "Delete",
+      "Display",
+      "ForwardAsVcal",
+      "GetConversation",
+      "GetOrganizer",
+      "GetRecurrencePattern",
+      "Move",
+      "PrintOut",
+      "Respond",
+      "Save",
+      "SaveAs",
+      "Send",
+      "ShowCategoriesDialog"
+    ]
+  },
+  "_AssignToCategoryRuleAction": {
+    "Properties": [
+      "ActionType",
+      "Application",
+      "Categories",
+      "Class",
+      "Enabled",
+      "Parent",
+      "Session"
+    ]
+  },
+  "_AttachmentSelection": {
+    "Properties": [
+      "Application",
+      "Class",
+      "Count",
+      "Item[]",
+      "Location",
+      "Parent",
+      "Session"
+    ],
+    "Methods": [
+      "GetSelection"
+    ]
+  },
+  "_AutoFormatRule": {
+    "Properties": [
+      "Application",
+      "Class",
+      "Enabled",
+      "Filter",
+      "Font",
+      "Name",
+      "Parent",
+      "Session",
+      "Standard"
+    ]
+  },
+  "_AutoFormatRules": {
+    "Properties": {},
+    "Methods": [
+      "Add",
+      "Insert",
+      "Remove",
+      "RemoveAll",
+      "Save"
+    ]
+  },
+  "_BusinessCardView": {
+    "Properties": [
+      "Application",
+      "CardSize",
+      "Class",
+      "Filter",
+      "HeadingsFont",
+      "Language",
+      "LockUserChanges",
+      "Name",
+      "Parent",
+      "SaveOption",
+      "Session",
+      "SortFields",
+      "Standard",
+      "ViewType",
+      "XML"
+    ],
+    "Methods": [
+      "Apply",
+      "Copy",
+      "Delete",
+      "GoToDate",
+      "Reset",
+      "Save"
+    ]
+  },
+  "_CalendarModule": {
+    "Properties": [
+      "Application",
+      "Class",
+      "Name",
+      "NavigationGroups",
+      "NavigationModuleType",
+      "Parent",
+      "Position",
+      "Session",
+      "Visible"
+    ]
+  },
+  "_CalendarSharing": {
+    "Properties": [
+      "Application",
+      "CalendarDetail",
+      "Class",
+      "EndDate",
+      "Folder",
+      "IncludeAttachments",
+      "IncludePrivateDetails",
+      "IncludeWholeCalendar",
+      "Parent",
+      "RestrictToWorkingHours",
+      "Session",
+      "StartDate"
+    ],
+    "Methods": [
+      "ForwardAsICal",
+      "SaveAsICal"
+    ]
+  },
+  "_CalendarView": {
+    "Properties": [
+      "Application",
+      "AutoFormatRules",
+      "BoldDatesWithItems",
+      "BoldSubjects",
+      "CalendarViewMode",
+      "Class",
+      "DaysInMultiDayMode",
+      "DayWeekFont",
+      "DayWeekTimeFont",
+      "DayWeekTimeScale",
+      "DisplayedDates",
+      "EndField",
+      "Filter",
+      "Language",
+      "LockUserChanges",
+      "MonthFont",
+      "MonthShowEndTime",
+      "Name",
+      "Parent",
+      "SaveOption",
+      "SelectedEndTime",
+      "SelectedStartTime",
+      "Session",
+      "Standard",
+      "StartField",
+      "ViewType",
+      "XML"
+    ],
+    "Methods": {}
+  },
+  "_CardView": {
+    "Properties": [
+      "AllowInCellEditing",
+      "Application",
+      "AutoFormatRules",
+      "BodyFont",
+      "Class",
+      "Filter",
+      "HeadingsFont",
+      "Language",
+      "LockUserChanges",
+      "MultiLineFieldHeight",
+      "Name",
+      "Parent",
+      "SaveOption",
+      "Session",
+      "ShowEmptyFields",
+      "SortFields",
+      "Standard",
+      "ViewFields",
+      "ViewType",
+      "Width",
+      "XML"
+    ],
+    "Methods": {}
+  },
+  "_Categories": {
+    "Properties": {},
+    "Methods": [
+      "Add",
+      "Remove"
+    ]
+  },
+  "_Category": {
+    "Properties": [
+      "Application",
+      "CategoryBorderColor",
+      "CategoryGradientBottomColor",
+      "CategoryGradientTopColor",
+      "CategoryID",
+      "Class",
+      "Color",
+      "Name",
+      "Parent",
+      "Session",
+      "ShortcutKey"
+    ]
+  },
+  "_CategoryRuleCondition": {
+    "Properties": [
+      "Application",
+      "Categories",
+      "Class",
+      "ConditionType",
+      "Enabled",
+      "Parent",
+      "Session"
+    ]
+  },
+  "_Column": {
+    "Properties": [
+      "Application",
+      "Class",
+      "Name",
+      "Parent",
+      "Session"
+    ]
+  },
+  "_ColumnFormat": {
+    "Properties": [
+      "Align",
+      "Application",
+      "Class",
+      "FieldFormat",
+      "FieldType",
+      "Label",
+      "Parent",
+      "Session",
+      "Width"
+    ]
+  },
+  "_Columns": {
+    "Properties": {},
+    "Methods": [
+      "Add",
+      "Remove",
+      "RemoveAll"
+    ]
+  },
+  "_ContactItem": {
+    "Properties": [
+      "Account",
+      "Actions",
+      "Anniversary",
+      "Application",
+      "AssistantName",
+      "AssistantTelephoneNumber",
+      "Attachments",
+      "AutoResolvedWinner",
+      "BillingInformation",
+      "Birthday",
+      "Body",
+      "Business2TelephoneNumber",
+      "BusinessAddress",
+      "BusinessAddressCity",
+      "BusinessAddressCountry",
+      "BusinessAddressPostalCode",
+      "BusinessAddressPostOfficeBox",
+      "BusinessAddressState",
+      "BusinessAddressStreet",
+      "BusinessCardLayoutXml",
+      "BusinessCardType",
+      "BusinessFaxNumber",
+      "BusinessHomePage",
+      "BusinessTelephoneNumber",
+      "CallbackTelephoneNumber",
+      "CarTelephoneNumber",
+      "Categories",
+      "Children",
+      "Class",
+      "Companies",
+      "CompanyAndFullName",
+      "CompanyLastFirstNoSpace",
+      "CompanyLastFirstSpaceOnly",
+      "CompanyMainTelephoneNumber",
+      "CompanyName",
+      "ComputerNetworkName",
+      "Conflicts",
+      "ConversationID",
+      "ConversationIndex",
+      "ConversationTopic",
+      "CreationTime",
+      "CustomerID",
+      "Department",
+      "DownloadState",
+      "Email1Address",
+      "Email1AddressType",
+      "Email1DisplayName",
+      "Email1EntryID",
+      "Email2Address",
+      "Email2AddressType",
+      "Email2DisplayName",
+      "Email2EntryID",
+      "Email3Address",
+      "Email3AddressType",
+      "Email3DisplayName",
+      "Email3EntryID",
+      "EntryID",
+      "FileAs",
+      "FirstName",
+      "FormDescription",
+      "FTPSite",
+      "FullName",
+      "FullNameAndCompany",
+      "Gender",
+      "GetInspector",
+      "GovernmentIDNumber",
+      "HasPicture",
+      "Hobby",
+      "Home2TelephoneNumber",
+      "HomeAddress",
+      "HomeAddressCity",
+      "HomeAddressCountry",
+      "HomeAddressPostalCode",
+      "HomeAddressPostOfficeBox",
+      "HomeAddressState",
+      "HomeAddressStreet",
+      "HomeFaxNumber",
+      "HomeTelephoneNumber",
+      "IMAddress",
+      "Importance",
+      "Initials",
+      "InternetFreeBusyAddress",
+      "IsConflict",
+      "ISDNNumber",
+      "IsMarkedAsTask",
+      "ItemProperties",
+      "JobTitle",
+      "Journal",
+      "Language",
+      "LastFirstAndSuffix",
+      "LastFirstNoSpace",
+      "LastFirstNoSpaceAndSuffix",
+      "LastFirstNoSpaceCompany",
+      "LastFirstSpaceOnly",
+      "LastFirstSpaceOnlyCompany",
+      "LastModificationTime",
+      "LastName",
+      "LastNameAndFirstName",
+      "Links",
+      "MailingAddress",
+      "MailingAddressCity",
+      "MailingAddressCountry",
+      "MailingAddressPostalCode",
+      "MailingAddressPostOfficeBox",
+      "MailingAddressState",
+      "MailingAddressStreet",
+      "ManagerName",
+      "MAPIOBJECT",
+      "MarkForDownload",
+      "MessageClass",
+      "MiddleName",
+      "Mileage",
+      "MobileTelephoneNumber",
+      "NetMeetingAlias",
+      "NetMeetingServer",
+      "NickName",
+      "NoAging",
+      "OfficeLocation",
+      "OrganizationalIDNumber",
+      "OtherAddress",
+      "OtherAddressCity",
+      "OtherAddressCountry",
+      "OtherAddressPostalCode",
+      "OtherAddressPostOfficeBox",
+      "OtherAddressState",
+      "OtherAddressStreet",
+      "OtherFaxNumber",
+      "OtherTelephoneNumber",
+      "OutlookInternalVersion",
+      "OutlookVersion",
+      "PagerNumber",
+      "Parent",
+      "PersonalHomePage",
+      "PrimaryTelephoneNumber",
+      "Profession",
+      "PropertyAccessor",
+      "RadioTelephoneNumber",
+      "ReferredBy",
+      "ReminderOverrideDefault",
+      "ReminderPlaySound",
+      "ReminderSet",
+      "ReminderSoundFile",
+      "ReminderTime",
+      "RTFBody",
+      "Saved",
+      "SelectedMailingAddress",
+      "Sensitivity",
+      "Session",
+      "Size",
+      "Spouse",
+      "Subject",
+      "Suffix",
+      "TaskCompletedDate",
+      "TaskDueDate",
+      "TaskStartDate",
+      "TaskSubject",
+      "TelexNumber",
+      "Title",
+      "ToDoTaskOrdinal",
+      "TTYTDDTelephoneNumber",
+      "UnRead",
+      "User1",
+      "User2",
+      "User3",
+      "User4",
+      "UserCertificate",
+      "UserProperties",
+      "WebPage",
+      "YomiCompanyName",
+      "YomiFirstName",
+      "YomiLastName"
+    ],
+    "Methods": [
+      "AddBusinessCardLogoPicture",
+      "AddPicture",
+      "ClearTaskFlag",
+      "Close",
+      "Copy",
+      "Delete",
+      "Display",
+      "ForwardAsBusinessCard",
+      "ForwardAsVcard",
+      "GetConversation",
+      "MarkAsTask",
+      "Move",
+      "PrintOut",
+      "RemovePicture",
+      "ResetBusinessCard",
+      "Save",
+      "SaveAs",
+      "SaveBusinessCardImage",
+      "ShowBusinessCardEditor",
+      "ShowCategoriesDialog",
+      "ShowCheckAddressDialog",
+      "ShowCheckFullNameDialog",
+      "ShowCheckPhoneDialog"
+    ]
+  },
+  "_ContactsModule": {
+    "Properties": {}
+  },
+  "_Conversation": {
+    "Properties": [
+      "Application",
+      "Class",
+      "ConversationID",
+      "Parent",
+      "Session"
+    ],
+    "Methods": [
+      "ClearAlwaysAssignCategories",
+      "GetAlwaysAssignCategories",
+      "GetAlwaysDelete",
+      "GetAlwaysMoveToFolder",
+      "GetChildren",
+      "GetParent",
+      "GetRootItems",
+      "GetTable",
+      "MarkAsRead",
+      "MarkAsUnread",
+      "SetAlwaysAssignCategories",
+      "SetAlwaysDelete",
+      "SetAlwaysMoveToFolder",
+      "StopAlwaysDelete",
+      "StopAlwaysMoveToFolder"
+    ]
+  },
+  "_ConversationHeader": {
+    "Properties": [
+      "Application",
+      "Class",
+      "ConversationID",
+      "ConversationTopic",
+      "Parent",
+      "Session"
+    ],
+    "Methods": [
+      "GetConversation",
+      "GetItems"
+    ]
+  },
+  "_DDocSiteControl": {
+    "Properties": [
+      "ReadOnly",
+      "SuppressAttachments"
+    ]
+  },
+  "_DDocSiteControlEvents_SinkHelper": {
+    "Fields": [
+      "m_dwCookie"
+    ]
+  },
+  "_DistListItem": {
+    "Properties": [
+      "Actions",
+      "Application",
+      "Attachments",
+      "AutoResolvedWinner",
+      "BillingInformation",
+      "Body",
+      "Categories",
+      "CheckSum",
+      "Class",
+      "Companies",
+      "Conflicts",
+      "ConversationID",
+      "ConversationIndex",
+      "ConversationTopic",
+      "CreationTime",
+      "DLName",
+      "DownloadState",
+      "EntryID",
+      "FormDescription",
+      "GetInspector",
+      "Importance",
+      "IsConflict",
+      "IsMarkedAsTask",
+      "ItemProperties",
+      "LastModificationTime",
+      "Links",
+      "MAPIOBJECT",
+      "MarkForDownload",
+      "MemberCount",
+      "Members",
+      "MessageClass",
+      "Mileage",
+      "NoAging",
+      "OneOffMembers",
+      "OutlookInternalVersion",
+      "OutlookVersion",
+      "Parent",
+      "PropertyAccessor",
+      "ReminderOverrideDefault",
+      "ReminderPlaySound",
+      "ReminderSet",
+      "ReminderSoundFile",
+      "ReminderTime",
+      "RTFBody",
+      "Saved",
+      "Sensitivity",
+      "Session",
+      "Size",
+      "Subject",
+      "TaskCompletedDate",
+      "TaskDueDate",
+      "TaskStartDate",
+      "TaskSubject",
+      "ToDoTaskOrdinal",
+      "UnRead",
+      "UserProperties"
+    ],
+    "Methods": [
+      "AddMember",
+      "AddMembers",
+      "ClearTaskFlag",
+      "Close",
+      "Copy",
+      "Delete",
+      "Display",
+      "GetConversation",
+      "GetMember",
+      "MarkAsTask",
+      "Move",
+      "PrintOut",
+      "RemoveMember",
+      "RemoveMembers",
+      "Save",
+      "SaveAs",
+      "ShowCategoriesDialog"
+    ]
+  },
+  "_DocSiteControlClass": {
+    "Constructors": {},
+    "Properties": {}
+  },
+  "_DocumentItem": {
+    "Properties": [
+      "Actions",
+      "Application",
+      "Attachments",
+      "AutoResolvedWinner",
+      "BillingInformation",
+      "Body",
+      "Categories",
+      "Class",
+      "Companies",
+      "Conflicts",
+      "ConversationIndex",
+      "ConversationTopic",
+      "CreationTime",
+      "DownloadState",
+      "EntryID",
+      "FormDescription",
+      "GetInspector",
+      "Importance",
+      "IsConflict",
+      "ItemProperties",
+      "LastModificationTime",
+      "Links",
+      "MAPIOBJECT",
+      "MarkForDownload",
+      "MessageClass",
+      "Mileage",
+      "NoAging",
+      "OutlookInternalVersion",
+      "OutlookVersion",
+      "Parent",
+      "PropertyAccessor",
+      "Saved",
+      "Sensitivity",
+      "Session",
+      "Size",
+      "Subject",
+      "UnRead",
+      "UserProperties"
+    ],
+    "Methods": [
+      "Close",
+      "Copy",
+      "Delete",
+      "Display",
+      "Move",
+      "PrintOut",
+      "Save",
+      "SaveAs",
+      "ShowCategoriesDialog"
+    ]
+  },
+  "_DRecipientControl": {
+    "Properties": [
+      "BackColor",
+      "Enabled",
+      "Font",
+      "ForeColor",
+      "ReadOnly",
+      "SpecialEffect"
+    ]
+  },
+  "_DRecipientControlEvents_SinkHelper": {
+    "Fields": {}
+  },
+  "_ExchangeDistributionList": {
+    "Properties": [
+      "Address",
+      "AddressEntryUserType",
+      "Alias",
+      "Application",
+      "Class",
+      "Comments",
+      "DisplayType",
+      "ID",
+      "Manager",
+      "MAPIOBJECT",
+      "Members",
+      "Name",
+      "Parent",
+      "PrimarySmtpAddress",
+      "PropertyAccessor",
+      "Session",
+      "Type"
+    ],
+    "Methods": [
+      "Delete",
+      "Details",
+      "GetContact",
+      "GetExchangeDistributionList",
+      "GetExchangeDistributionListMembers",
+      "GetExchangeUser",
+      "GetFreeBusy",
+      "GetMemberOfList",
+      "GetOwners",
+      "Update",
+      "UpdateFreeBusy"
+    ]
+  },
+  "_ExchangeUser": {
+    "Properties": [
+      "Address",
+      "AddressEntryUserType",
+      "Alias",
+      "Application",
+      "AssistantName",
+      "BusinessTelephoneNumber",
+      "City",
+      "Class",
+      "Comments",
+      "CompanyName",
+      "Department",
+      "DisplayType",
+      "FirstName",
+      "ID",
+      "JobTitle",
+      "LastName",
+      "Manager",
+      "MAPIOBJECT",
+      "Members",
+      "MobileTelephoneNumber",
+      "Name",
+      "OfficeLocation",
+      "Parent",
+      "PostalCode",
+      "PrimarySmtpAddress",
+      "PropertyAccessor",
+      "Session",
+      "StateOrProvince",
+      "StreetAddress",
+      "Type",
+      "YomiCompanyName",
+      "YomiDepartment",
+      "YomiDisplayName",
+      "YomiFirstName",
+      "YomiLastName"
+    ],
+    "Methods": [
+      "Delete",
+      "Details",
+      "GetContact",
+      "GetDirectReports",
+      "GetExchangeDistributionList",
+      "GetExchangeUser",
+      "GetExchangeUserManager",
+      "GetFreeBusy",
+      "GetMemberOfList",
+      "GetPicture",
+      "Update",
+      "UpdateFreeBusy"
+    ]
+  },
+  "_Explorer": {
+    "Properties": [
+      "AccountSelector",
+      "ActiveInlineResponse",
+      "ActiveInlineResponseWordEditor",
+      "Application",
+      "AttachmentSelection",
+      "Caption",
+      "Class",
+      "CommandBars",
+      "CurrentFolder",
+      "CurrentView",
+      "Height",
+      "HTMLDocument",
+      "Left",
+      "NavigationPane",
+      "Panes",
+      "Parent",
+      "Selection",
+      "Session",
+      "Top",
+      "Views",
+      "Width",
+      "WindowState"
+    ],
+    "Methods": [
+      "Activate",
+      "AddToSelection",
+      "ClearSearch",
+      "ClearSelection",
+      "Close",
+      "DeselectFolder",
+      "Display",
+      "IsFolderSelected",
+      "IsItemSelectableInView",
+      "IsPaneVisible",
+      "RemoveFromSelection",
+      "Search",
+      "SelectAllItems",
+      "SelectFolder",
+      "ShowPane"
+    ]
+  },
+  "_Explorers": {
+    "Properties": {},
+    "Methods": [
+      "Add"
+    ]
+  },
+  "_Folders": {
+    "Properties": [
+      "Application",
+      "Class",
+      "Count",
+      "Item[]",
+      "Parent",
+      "RawTable",
+      "Session"
+    ],
+    "Methods": [
+      "Add",
+      "GetFirst",
+      "GetLast",
+      "GetNext",
+      "GetPrevious",
+      "Remove"
+    ]
+  },
+  "_FormNameRuleCondition": {
+    "Properties": [
+      "Application",
+      "Class",
+      "ConditionType",
+      "Enabled",
+      "FormName",
+      "Parent",
+      "Session"
+    ]
+  },
+  "_FormRegion": {
+    "Properties": [
+      "Application",
+      "Class",
+      "Detail",
+      "DisplayName",
+      "EnableAutoLayout",
+      "Form",
+      "FormRegionMode",
+      "Inspector",
+      "InternalName",
+      "IsExpanded",
+      "Item",
+      "Language",
+      "Parent",
+      "Session",
+      "SuppressControlReplacement",
+      "Visible"
+    ],
+    "Methods": [
+      "Reflow",
+      "Select",
+      "SetControlItemProperty"
+    ]
+  },
+  "_FormRegionStartup": {
+    "Methods": [
+      "BeforeFormRegionShow",
+      "GetFormRegionIcon",
+      "GetFormRegionManifest",
+      "GetFormRegionStorage"
+    ]
+  },
+  "_FromRssFeedRuleCondition": {
+    "Properties": [
+      "Application",
+      "Class",
+      "ConditionType",
+      "Enabled",
+      "FromRssFeed",
+      "Parent",
+      "Session"
+    ]
+  },
+  "_IconView": {
+    "Properties": [
+      "Application",
+      "Class",
+      "Filter",
+      "IconPlacement",
+      "IconViewType",
+      "Language",
+      "LockUserChanges",
+      "Name",
+      "Parent",
+      "SaveOption",
+      "Session",
+      "SortFields",
+      "Standard",
+      "ViewType",
+      "XML"
+    ],
+    "Methods": {}
+  },
+  "_IDocSiteControl": {
+    "Properties": {}
+  },
+  "_ImportanceRuleCondition": {
+    "Properties": [
+      "Application",
+      "Class",
+      "ConditionType",
+      "Enabled",
+      "Importance",
+      "Parent",
+      "Session"
+    ]
+  },
+  "_Inspector": {
+    "Properties": [
+      "Application",
+      "AttachmentSelection",
+      "Caption",
+      "Class",
+      "CommandBars",
+      "CurrentItem",
+      "EditorType",
+      "Height",
+      "HTMLEditor",
+      "Left",
+      "ModifiedFormPages",
+      "Parent",
+      "Session",
+      "Top",
+      "Width",
+      "WindowState",
+      "WordEditor"
+    ],
+    "Methods": [
+      "Activate",
+      "Close",
+      "Display",
+      "HideFormPage",
+      "IsWordMail",
+      "NewFormRegion",
+      "OpenFormRegion",
+      "SaveFormRegion",
+      "SetControlItemProperty",
+      "SetCurrentFormPage",
+      "SetSchedulingStartTime",
+      "ShowFormPage"
+    ]
+  },
+  "_Inspectors": {
+    "Properties": {},
+    "Methods": {}
+  },
+  "_IRecipientControl": {
+    "Properties": {}
+  },
+  "_Items": {
+    "Properties": [
+      "Application",
+      "Class",
+      "Count",
+      "IncludeRecurrences",
+      "Item[]",
+      "Parent",
+      "RawTable",
+      "Session"
+    ],
+    "Methods": [
+      "Add",
+      "Find",
+      "FindNext",
+      "GetFirst",
+      "GetLast",
+      "GetNext",
+      "GetPrevious",
+      "Remove",
+      "ResetColumns",
+      "Restrict",
+      "SetColumns",
+      "Sort"
+    ]
+  },
+  "_JournalItem": {
+    "Properties": [
+      "Actions",
+      "Application",
+      "Attachments",
+      "AutoResolvedWinner",
+      "BillingInformation",
+      "Body",
+      "Categories",
+      "Class",
+      "Companies",
+      "Conflicts",
+      "ContactNames",
+      "ConversationID",
+      "ConversationIndex",
+      "ConversationTopic",
+      "CreationTime",
+      "DocPosted",
+      "DocPrinted",
+      "DocRouted",
+      "DocSaved",
+      "DownloadState",
+      "Duration",
+      "End",
+      "EntryID",
+      "FormDescription",
+      "GetInspector",
+      "Importance",
+      "IsConflict",
+      "ItemProperties",
+      "LastModificationTime",
+      "Links",
+      "MAPIOBJECT",
+      "MarkForDownload",
+      "MessageClass",
+      "Mileage",
+      "NoAging",
+      "OutlookInternalVersion",
+      "OutlookVersion",
+      "Parent",
+      "PropertyAccessor",
+      "Recipients",
+      "Saved",
+      "Sensitivity",
+      "Session",
+      "Size",
+      "Start",
+      "Subject",
+      "Type",
+      "UnRead",
+      "UserProperties"
+    ],
+    "Methods": [
+      "Close",
+      "Copy",
+      "Delete",
+      "Display",
+      "Forward",
+      "GetConversation",
+      "Move",
+      "PrintOut",
+      "Reply",
+      "ReplyAll",
+      "Save",
+      "SaveAs",
+      "ShowCategoriesDialog",
+      "StartTimer",
+      "StopTimer"
+    ]
+  },
+  "_JournalModule": {
+    "Properties": {}
+  },
+  "_MailItem": {
+    "Properties": [
+      "Actions",
+      "AlternateRecipientAllowed",
+      "Application",
+      "Attachments",
+      "AutoForwarded",
+      "AutoResolvedWinner",
+      "BCC",
+      "BillingInformation",
+      "Body",
+      "BodyFormat",
+      "Categories",
+      "CC",
+      "Class",
+      "Companies",
+      "Conflicts",
+      "ConversationID",
+      "ConversationIndex",
+      "ConversationTopic",
+      "CreationTime",
+      "DeferredDeliveryTime",
+      "DeleteAfterSubmit",
+      "DownloadState",
+      "EnableSharedAttachments",
+      "EntryID",
+      "ExpiryTime",
+      "FlagDueBy",
+      "FlagIcon",
+      "FlagRequest",
+      "FlagStatus",
+      "FormDescription",
+      "GetInspector",
+      "HasCoverSheet",
+      "HTMLBody",
+      "Importance",
+      "InternetCodepage",
+      "IsConflict",
+      "IsIPFax",
+      "IsMarkedAsTask",
+      "ItemProperties",
+      "LastModificationTime",
+      "Links",
+      "MAPIOBJECT",
+      "MarkForDownload",
+      "MessageClass",
+      "Mileage",
+      "NoAging",
+      "OriginatorDeliveryReportRequested",
+      "OutlookInternalVersion",
+      "OutlookVersion",
+      "Parent",
+      "Permission",
+      "PermissionService",
+      "PermissionTemplateGuid",
+      "PropertyAccessor",
+      "ReadReceiptRequested",
+      "ReceivedByEntryID",
+      "ReceivedByName",
+      "ReceivedOnBehalfOfEntryID",
+      "ReceivedOnBehalfOfName",
+      "ReceivedTime",
+      "RecipientReassignmentProhibited",
+      "Recipients",
+      "ReminderOverrideDefault",
+      "ReminderPlaySound",
+      "ReminderSet",
+      "ReminderSoundFile",
+      "ReminderTime",
+      "RemoteStatus",
+      "ReplyRecipientNames",
+      "ReplyRecipients",
+      "RetentionExpirationDate",
+      "RetentionPolicyName",
+      "RTFBody",
+      "Saved",
+      "SaveSentMessageFolder",
+      "Sender",
+      "SenderEmailAddress",
+      "SenderEmailType",
+      "SenderName",
+      "SendUsingAccount",
+      "Sensitivity",
+      "Sent",
+      "SentOn",
+      "SentOnBehalfOfName",
+      "Session",
+      "Size",
+      "Subject",
+      "Submitted",
+      "TaskCompletedDate",
+      "TaskDueDate",
+      "TaskStartDate",
+      "TaskSubject",
+      "To",
+      "ToDoTaskOrdinal",
+      "UnRead",
+      "UserProperties",
+      "VotingOptions",
+      "VotingResponse"
+    ],
+    "Methods": [
+      "AddBusinessCard",
+      "ClearConversationIndex",
+      "ClearTaskFlag",
+      "Close",
+      "Copy",
+      "Delete",
+      "Display",
+      "Forward",
+      "GetConversation",
+      "MarkAsTask",
+      "Move",
+      "PrintOut",
+      "Reply",
+      "ReplyAll",
+      "Save",
+      "SaveAs",
+      "Send",
+      "ShowCategoriesDialog"
+    ]
+  },
+  "_MailModule": {
+    "Properties": {}
+  },
+  "_MarkAsTaskRuleAction": {
+    "Properties": [
+      "ActionType",
+      "Application",
+      "Class",
+      "Enabled",
+      "FlagTo",
+      "MarkInterval",
+      "Parent",
+      "Session"
+    ]
+  },
+  "_MeetingItem": {
+    "Properties": [
+      "Actions",
+      "Application",
+      "Attachments",
+      "AutoForwarded",
+      "AutoResolvedWinner",
+      "BillingInformation",
+      "Body",
+      "Categories",
+      "Class",
+      "Companies",
+      "Conflicts",
+      "ConversationID",
+      "ConversationIndex",
+      "ConversationTopic",
+      "CreationTime",
+      "DeferredDeliveryTime",
+      "DeleteAfterSubmit",
+      "DownloadState",
+      "EntryID",
+      "ExpiryTime",
+      "FlagDueBy",
+      "FlagIcon",
+      "FlagRequest",
+      "FlagStatus",
+      "FormDescription",
+      "GetInspector",
+      "Importance",
+      "IsConflict",
+      "IsLatestVersion",
+      "ItemProperties",
+      "LastModificationTime",
+      "Links",
+      "MAPIOBJECT",
+      "MarkForDownload",
+      "MeetingWorkspaceURL",
+      "MessageClass",
+      "Mileage",
+      "NoAging",
+      "OriginatorDeliveryReportRequested",
+      "OutlookInternalVersion",
+      "OutlookVersion",
+      "Parent",
+      "PropertyAccessor",
+      "ReceivedTime",
+      "Recipients",
+      "ReminderSet",
+      "ReminderTime",
+      "ReplyRecipients",
+      "RetentionExpirationDate",
+      "RetentionPolicyName",
+      "RTFBody",
+      "Saved",
+      "SaveSentMessageFolder",
+      "SenderEmailAddress",
+      "SenderEmailType",
+      "SenderName",
+      "SendUsingAccount",
+      "Sensitivity",
+      "Sent",
+      "SentOn",
+      "Session",
+      "Size",
+      "Subject",
+      "Submitted",
+      "UnRead",
+      "UserProperties"
+    ],
+    "Methods": [
+      "Close",
+      "Copy",
+      "Delete",
+      "Display",
+      "Forward",
+      "GetAssociatedAppointment",
+      "GetConversation",
+      "Move",
+      "PrintOut",
+      "Reply",
+      "ReplyAll",
+      "Save",
+      "SaveAs",
+      "Send",
+      "ShowCategoriesDialog"
+    ]
+  },
+  "_MobileItem": {
+    "Properties": [
+      "Actions",
+      "Application",
+      "Attachments",
+      "BillingInformation",
+      "Body",
+      "Categories",
+      "Class",
+      "Companies",
+      "ConversationIndex",
+      "ConversationTopic",
+      "Count",
+      "CreationTime",
+      "EntryID",
+      "FormDescription",
+      "GetInspector",
+      "HTMLBody",
+      "Importance",
+      "ItemProperties",
+      "LastModificationTime",
+      "MAPIOBJECT",
+      "MessageClass",
+      "Mileage",
+      "MobileFormat",
+      "NoAging",
+      "OutlookInternalVersion",
+      "OutlookVersion",
+      "Parent",
+      "PropertyAccessor",
+      "ReceivedByEntryID",
+      "ReceivedByName",
+      "ReceivedTime",
+      "Recipients",
+      "ReplyRecipientNames",
+      "ReplyRecipients",
+      "Saved",
+      "SenderEmailAddress",
+      "SenderEmailType",
+      "SenderName",
+      "SendUsingAccount",
+      "Sensitivity",
+      "Sent",
+      "SentOn",
+      "Session",
+      "Size",
+      "SMILBody",
+      "Subject",
+      "Submitted",
+      "To",
+      "UnRead",
+      "UserProperties"
+    ],
+    "Methods": [
+      "Close",
+      "Copy",
+      "Delete",
+      "Display",
+      "Forward",
+      "Move",
+      "PrintOut",
+      "Reply",
+      "ReplyAll",
+      "Save",
+      "SaveAs",
+      "Send"
+    ]
+  },
+  "_MoveOrCopyRuleAction": {
+    "Properties": [
+      "ActionType",
+      "Application",
+      "Class",
+      "Enabled",
+      "Folder",
+      "Parent",
+      "Session"
+    ]
+  },
+  "_NameSpace": {
+    "Properties": [
+      "Accounts",
+      "AddressLists",
+      "Application",
+      "AutoDiscoverConnectionMode",
+      "AutoDiscoverXml",
+      "Categories",
+      "Class",
+      "CurrentProfileName",
+      "CurrentUser",
+      "DefaultStore",
+      "ExchangeConnectionMode",
+      "ExchangeMailboxServerName",
+      "ExchangeMailboxServerVersion",
+      "Folders",
+      "MAPIOBJECT",
+      "Offline",
+      "Parent",
+      "Session",
+      "Stores",
+      "SyncObjects",
+      "Type"
+    ],
+    "Methods": [
+      "AddStore",
+      "AddStoreEx",
+      "CompareEntryIDs",
+      "CreateContactCard",
+      "CreateRecipient",
+      "CreateSharingItem",
+      "Dial",
+      "GetAddressEntryFromID",
+      "GetDefaultFolder",
+      "GetFolderFromID",
+      "GetGlobalAddressList",
+      "GetItemFromID",
+      "GetRecipientFromID",
+      "GetSelectNamesDialog",
+      "GetSharedDefaultFolder",
+      "GetStoreFromID",
+      "Logoff",
+      "Logon",
+      "OpenSharedFolder",
+      "OpenSharedItem",
+      "PickFolder",
+      "RefreshRemoteHeaders",
+      "RemoveStore",
+      "SendAndReceive"
+    ]
+  },
+  "_NavigationFolder": {
+    "Properties": [
+      "Application",
+      "Class",
+      "DisplayName",
+      "Folder",
+      "IsRemovable",
+      "IsSelected",
+      "IsSideBySide",
+      "Parent",
+      "Position",
+      "Session"
+    ]
+  },
+  "_NavigationFolders": {
+    "Properties": {},
+    "Methods": {}
+  },
+  "_NavigationGroup": {
+    "Properties": [
+      "Application",
+      "Class",
+      "GroupType",
+      "Name",
+      "NavigationFolders",
+      "Parent",
+      "Position",
+      "Session"
+    ]
+  },
+  "_NavigationGroups": {
+    "Properties": {},
+    "Methods": [
+      "Create",
+      "Delete",
+      "GetDefaultNavigationGroup"
+    ]
+  },
+  "_NavigationModule": {
+    "Properties": [
+      "Application",
+      "Class",
+      "Name",
+      "NavigationModuleType",
+      "Parent",
+      "Position",
+      "Session",
+      "Visible"
+    ]
+  },
+  "_NavigationModules": {
+    "Properties": {},
+    "Methods": [
+      "GetNavigationModule"
+    ]
+  },
+  "_NavigationPane": {
+    "Properties": [
+      "Application",
+      "Class",
+      "CurrentModule",
+      "DisplayedModuleCount",
+      "IsCollapsed",
+      "Modules",
+      "Parent",
+      "Session"
+    ]
+  },
+  "_NewItemAlertRuleAction": {
+    "Properties": [
+      "ActionType",
+      "Application",
+      "Class",
+      "Enabled",
+      "Parent",
+      "Session",
+      "Text"
+    ]
+  },
+  "_NoteItem": {
+    "Properties": [
+      "Application",
+      "AutoResolvedWinner",
+      "Body",
+      "Categories",
+      "Class",
+      "Color",
+      "Conflicts",
+      "CreationTime",
+      "DownloadState",
+      "EntryID",
+      "GetInspector",
+      "Height",
+      "IsConflict",
+      "ItemProperties",
+      "LastModificationTime",
+      "Left",
+      "Links",
+      "MarkForDownload",
+      "MessageClass",
+      "Parent",
+      "PropertyAccessor",
+      "Saved",
+      "Session",
+      "Size",
+      "Subject",
+      "Top",
+      "Width"
+    ],
+    "Methods": [
+      "Close",
+      "Copy",
+      "Delete",
+      "Display",
+      "Move",
+      "PrintOut",
+      "Save",
+      "SaveAs"
+    ]
+  },
+  "_NotesModule": {
+    "Properties": {}
+  },
+  "_OlkBusinessCardControl": {
+    "Properties": [
+      "MouseIcon",
+      "MousePointer"
+    ]
+  },
+  "_OlkCategory": {
+    "Properties": [
+      "AutoSize",
+      "BackColor",
+      "BackStyle",
+      "Enabled",
+      "ForeColor",
+      "MouseIcon",
+      "MousePointer"
+    ]
+  },
+  "_OlkCheckBox": {
+    "Properties": [
+      "Accelerator",
+      "Alignment",
+      "BackColor",
+      "BackStyle",
+      "Caption",
+      "Enabled",
+      "Font",
+      "ForeColor",
+      "MouseIcon",
+      "MousePointer",
+      "TripleState",
+      "Value",
+      "WordWrap"
+    ]
+  },
+  "_OlkComboBox": {
+    "Properties": [
+      "AutoSize",
+      "AutoTab",
+      "AutoWordSelect",
+      "BackColor",
+      "BorderStyle",
+      "DragBehavior",
+      "Enabled",
+      "EnterFieldBehavior",
+      "Font",
+      "ForeColor",
+      "HideSelection",
+      "ListCount",
+      "ListIndex",
+      "Locked",
+      "MaxLength",
+      "MouseIcon",
+      "MousePointer",
+      "SelectionMargin",
+      "SelLength",
+      "SelStart",
+      "SelText",
+      "Style",
+      "Text",
+      "TextAlign",
+      "TopIndex",
+      "Value"
+    ],
+    "Methods": [
+      "AddItem",
+      "Clear",
+      "Copy",
+      "Cut",
+      "DropDown",
+      "GetItem",
+      "Paste",
+      "RemoveItem",
+      "SetItem"
+    ]
+  },
+  "_OlkCommandButton": {
+    "Properties": [
+      "Accelerator",
+      "AutoSize",
+      "Caption",
+      "DisplayDropArrow",
+      "Enabled",
+      "Font",
+      "MouseIcon",
+      "MousePointer",
+      "Picture",
+      "PictureAlignment",
+      "TextAlign",
+      "WordWrap"
+    ]
+  },
+  "_OlkContactPhoto": {
+    "Properties": [
+      "Enabled",
+      "MouseIcon",
+      "MousePointer"
+    ]
+  },
+  "_OlkDateControl": {
+    "Properties": [
+      "AutoSize",
+      "AutoWordSelect",
+      "BackColor",
+      "BackStyle",
+      "Date",
+      "Enabled",
+      "EnterFieldBehavior",
+      "Font",
+      "ForeColor",
+      "HideSelection",
+      "Locked",
+      "MouseIcon",
+      "MousePointer",
+      "ShowNoneButton",
+      "Text",
+      "TextAlign",
+      "Value"
+    ],
+    "Methods": [
+      "DropDown"
+    ]
+  },
+  "_OlkFrameHeader": {
+    "Properties": [
+      "Alignment",
+      "Caption",
+      "Enabled",
+      "Font",
+      "ForeColor",
+      "MouseIcon",
+      "MousePointer"
+    ]
+  },
+  "_OlkInfoBar": {
+    "Properties": {}
+  },
+  "_OlkLabel": {
+    "Properties": [
+      "Accelerator",
+      "AutoSize",
+      "BackColor",
+      "BackStyle",
+      "BorderStyle",
+      "Caption",
+      "Enabled",
+      "Font",
+      "ForeColor",
+      "MouseIcon",
+      "MousePointer",
+      "TextAlign",
+      "UseHeaderColor",
+      "Value",
+      "WordWrap"
+    ]
+  },
+  "_OlkListBox": {
+    "Properties": [
+      "BackColor",
+      "BorderStyle",
+      "Enabled",
+      "Font",
+      "ForeColor",
+      "ListCount",
+      "ListIndex",
+      "Locked",
+      "MatchEntry",
+      "MouseIcon",
+      "MousePointer",
+      "MultiSelect",
+      "Text",
+      "TextAlign",
+      "TopIndex",
+      "Value"
+    ],
+    "Methods": [
+      "AddItem",
+      "Clear",
+      "Copy",
+      "GetItem",
+      "GetSelected",
+      "RemoveItem",
+      "SetItem",
+      "SetSelected"
+    ]
+  },
+  "_OlkOptionButton": {
+    "Properties": [
+      "Accelerator",
+      "Alignment",
+      "BackColor",
+      "BackStyle",
+      "Caption",
+      "Enabled",
+      "Font",
+      "ForeColor",
+      "GroupName",
+      "MouseIcon",
+      "MousePointer",
+      "Value",
+      "WordWrap"
+    ]
+  },
+  "_OlkPageControl": {
+    "Properties": [
+      "Page"
+    ]
+  },
+  "_OlkSenderPhoto": {
+    "Properties": [
+      "Enabled",
+      "MouseIcon",
+      "MousePointer",
+      "PreferredHeight",
+      "PreferredWidth"
+    ]
+  },
+  "_OlkTextBox": {
+    "Properties": [
+      "AutoSize",
+      "AutoTab",
+      "AutoWordSelect",
+      "BackColor",
+      "BorderStyle",
+      "DragBehavior",
+      "Enabled",
+      "EnableRichText",
+      "EnterFieldBehavior",
+      "EnterKeyBehavior",
+      "Font",
+      "ForeColor",
+      "HideSelection",
+      "IntegralHeight",
+      "Locked",
+      "MaxLength",
+      "MouseIcon",
+      "MousePointer",
+      "MultiLine",
+      "PasswordChar",
+      "Scrollbars",
+      "SelectionMargin",
+      "SelLength",
+      "SelStart",
+      "SelText",
+      "TabKeyBehavior",
+      "Text",
+      "TextAlign",
+      "Value",
+      "WordWrap"
+    ],
+    "Methods": [
+      "Clear",
+      "Copy",
+      "Cut",
+      "Paste"
+    ]
+  },
+  "_OlkTimeControl": {
+    "Properties": [
+      "AutoSize",
+      "AutoWordSelect",
+      "BackColor",
+      "BackStyle",
+      "Enabled",
+      "EnterFieldBehavior",
+      "Font",
+      "ForeColor",
+      "HideSelection",
+      "IntervalTime",
+      "Locked",
+      "MouseIcon",
+      "MousePointer",
+      "ReferenceTime",
+      "Style",
+      "Text",
+      "TextAlign",
+      "Time",
+      "Value"
+    ],
+    "Methods": {}
+  },
+  "_OlkTimeZoneControl": {
+    "Properties": [
+      "AppointmentTimeField",
+      "BorderStyle",
+      "Enabled",
+      "Locked",
+      "MouseIcon",
+      "MousePointer",
+      "SelectedTimeZoneIndex",
+      "Value"
+    ],
+    "Methods": {}
+  },
+  "_OrderField": {
+    "Properties": [
+      "Application",
+      "Class",
+      "IsDescending",
+      "Parent",
+      "Session",
+      "ViewXMLSchemaName"
+    ]
+  },
+  "_OrderFields": {
+    "Properties": {},
+    "Methods": [
+      "Add",
+      "Insert",
+      "Remove",
+      "RemoveAll"
+    ]
+  },
+  "_OutlookBarGroups": {
+    "Properties": {},
+    "Methods": {}
+  },
+  "_OutlookBarPane": {
+    "Properties": [
+      "Application",
+      "Class",
+      "Contents",
+      "CurrentGroup",
+      "Name",
+      "Parent",
+      "Session",
+      "Visible"
+    ]
+  },
+  "_OutlookBarShortcuts": {
+    "Properties": {},
+    "Methods": {}
+  },
+  "_PeopleView": {
+    "Properties": [
+      "Application",
+      "Class",
+      "Filter",
+      "Language",
+      "LockUserChanges",
+      "Name",
+      "Parent",
+      "SaveOption",
+      "Session",
+      "SortFields",
+      "Standard",
+      "ViewType",
+      "XML"
+    ],
+    "Methods": {}
+  },
+  "_PlaySoundRuleAction": {
+    "Properties": [
+      "ActionType",
+      "Application",
+      "Class",
+      "Enabled",
+      "FilePath",
+      "Parent",
+      "Session"
+    ]
+  },
+  "_PostItem": {
+    "Properties": [
+      "Actions",
+      "Application",
+      "Attachments",
+      "AutoResolvedWinner",
+      "BillingInformation",
+      "Body",
+      "BodyFormat",
+      "Categories",
+      "Class",
+      "Companies",
+      "Conflicts",
+      "ConversationID",
+      "ConversationIndex",
+      "ConversationTopic",
+      "CreationTime",
+      "DownloadState",
+      "EntryID",
+      "ExpiryTime",
+      "FormDescription",
+      "GetInspector",
+      "HTMLBody",
+      "Importance",
+      "InternetCodepage",
+      "IsConflict",
+      "IsMarkedAsTask",
+      "ItemProperties",
+      "LastModificationTime",
+      "Links",
+      "MAPIOBJECT",
+      "MarkForDownload",
+      "MessageClass",
+      "Mileage",
+      "NoAging",
+      "OutlookInternalVersion",
+      "OutlookVersion",
+      "Parent",
+      "PropertyAccessor",
+      "ReceivedTime",
+      "ReminderOverrideDefault",
+      "ReminderPlaySound",
+      "ReminderSet",
+      "ReminderSoundFile",
+      "ReminderTime",
+      "RTFBody",
+      "Saved",
+      "SenderEmailAddress",
+      "SenderEmailType",
+      "SenderName",
+      "Sensitivity",
+      "SentOn",
+      "Session",
+      "Size",
+      "Subject",
+      "TaskCompletedDate",
+      "TaskDueDate",
+      "TaskStartDate",
+      "TaskSubject",
+      "ToDoTaskOrdinal",
+      "UnRead",
+      "UserProperties"
+    ],
+    "Methods": [
+      "ClearConversationIndex",
+      "ClearTaskFlag",
+      "Close",
+      "Copy",
+      "Delete",
+      "Display",
+      "Forward",
+      "GetConversation",
+      "MarkAsTask",
+      "Move",
+      "Post",
+      "PrintOut",
+      "Reply",
+      "Save",
+      "SaveAs",
+      "SetACLs",
+      "ShowCategoriesDialog"
+    ]
+  },
+  "_PropertyAccessor": {
+    "Properties": [
+      "Application",
+      "Class",
+      "Parent",
+      "Session"
+    ],
+    "Methods": [
+      "BinaryToString",
+      "DeleteProperties",
+      "DeleteProperty",
+      "GetProperties",
+      "GetProperty",
+      "LocalTimeToUTC",
+      "SetProperties",
+      "SetProperty",
+      "StringToBinary",
+      "UTCToLocalTime"
+    ]
+  },
+  "_RecipientControlClass": {
+    "Constructors": {},
+    "Properties": {}
+  },
+  "_Reminder": {
+    "Properties": [
+      "Application",
+      "Caption",
+      "Class",
+      "IsVisible",
+      "Item",
+      "NextReminderDate",
+      "OriginalReminderDate",
+      "Parent",
+      "Session"
+    ],
+    "Methods": [
+      "Dismiss",
+      "Snooze"
+    ]
+  },
+  "_Reminders": {
+    "Properties": {},
+    "Methods": [
+      "GetEnumerator",
+      "Remove"
+    ]
+  },
+  "_RemoteItem": {
+    "Properties": [
+      "Actions",
+      "Application",
+      "Attachments",
+      "AutoResolvedWinner",
+      "BillingInformation",
+      "Body",
+      "Categories",
+      "Class",
+      "Companies",
+      "Conflicts",
+      "ConversationID",
+      "ConversationIndex",
+      "ConversationTopic",
+      "CreationTime",
+      "DownloadState",
+      "EntryID",
+      "FormDescription",
+      "GetInspector",
+      "HasAttachment",
+      "Importance",
+      "IsConflict",
+      "ItemProperties",
+      "LastModificationTime",
+      "Links",
+      "MAPIOBJECT",
+      "MarkForDownload",
+      "MessageClass",
+      "Mileage",
+      "NoAging",
+      "OutlookInternalVersion",
+      "OutlookVersion",
+      "Parent",
+      "PropertyAccessor",
+      "RemoteMessageClass",
+      "Saved",
+      "Sensitivity",
+      "Session",
+      "Size",
+      "Subject",
+      "TransferSize",
+      "TransferTime",
+      "UnRead",
+      "UserProperties"
+    ],
+    "Methods": [
+      "Close",
+      "Copy",
+      "Delete",
+      "Display",
+      "GetConversation",
+      "Move",
+      "PrintOut",
+      "Save",
+      "SaveAs",
+      "ShowCategoriesDialog"
+    ]
+  },
+  "_ReportItem": {
+    "Properties": [
+      "Actions",
+      "Application",
+      "Attachments",
+      "AutoResolvedWinner",
+      "BillingInformation",
+      "Body",
+      "Categories",
+      "Class",
+      "Companies",
+      "Conflicts",
+      "ConversationID",
+      "ConversationIndex",
+      "ConversationTopic",
+      "CreationTime",
+      "DownloadState",
+      "EntryID",
+      "FormDescription",
+      "GetInspector",
+      "Importance",
+      "IsConflict",
+      "ItemProperties",
+      "LastModificationTime",
+      "Links",
+      "MAPIOBJECT",
+      "MarkForDownload",
+      "MessageClass",
+      "Mileage",
+      "NoAging",
+      "OutlookInternalVersion",
+      "OutlookVersion",
+      "Parent",
+      "PropertyAccessor",
+      "RetentionExpirationDate",
+      "RetentionPolicyName",
+      "Saved",
+      "Sensitivity",
+      "Session",
+      "Size",
+      "Subject",
+      "UnRead",
+      "UserProperties"
+    ],
+    "Methods": {}
+  },
+  "_Results": {
+    "Properties": [
+      "Application",
+      "Class",
+      "Count",
+      "DefaultItemType",
+      "Item[]",
+      "Parent",
+      "RawTable",
+      "Session"
+    ],
+    "Methods": [
+      "GetFirst",
+      "GetLast",
+      "GetNext",
+      "GetPrevious",
+      "ResetColumns",
+      "SetColumns",
+      "Sort"
+    ]
+  },
+  "_Row": {
+    "Properties": [
+      "Application",
+      "Class",
+      "Item[]",
+      "Parent",
+      "Session"
+    ],
+    "Methods": [
+      "BinaryToString",
+      "GetValues",
+      "LocalTimeToUTC",
+      "UTCToLocalTime"
+    ]
+  },
+  "_Rule": {
+    "Properties": [
+      "Actions",
+      "Application",
+      "Class",
+      "Conditions",
+      "Enabled",
+      "Exceptions",
+      "ExecutionOrder",
+      "IsLocalRule",
+      "Name",
+      "Parent",
+      "RuleType",
+      "Session"
+    ],
+    "Methods": [
+      "Execute"
+    ]
+  },
+  "_RuleAction": {
+    "Properties": [
+      "ActionType",
+      "Application",
+      "Class",
+      "Enabled",
+      "Parent",
+      "Session"
+    ]
+  },
+  "_RuleActions": {
+    "Properties": [
+      "Application",
+      "AssignToCategory",
+      "CC",
+      "Class",
+      "ClearCategories",
+      "CopyToFolder",
+      "Count",
+      "Delete",
+      "DeletePermanently",
+      "DesktopAlert",
+      "Forward",
+      "ForwardAsAttachment",
+      "Item[]",
+      "MarkAsTask",
+      "MoveToFolder",
+      "NewItemAlert",
+      "NotifyDelivery",
+      "NotifyRead",
+      "Parent",
+      "PlaySound",
+      "Redirect",
+      "Session",
+      "Stop"
+    ]
+  },
+  "_RuleCondition": {
+    "Properties": [
+      "Application",
+      "Class",
+      "ConditionType",
+      "Enabled",
+      "Parent",
+      "Session"
+    ]
+  },
+  "_RuleConditions": {
+    "Properties": [
+      "Account",
+      "AnyCategory",
+      "Application",
+      "Body",
+      "BodyOrSubject",
+      "Category",
+      "CC",
+      "Class",
+      "Count",
+      "FormName",
+      "From",
+      "FromAnyRSSFeed",
+      "FromRssFeed",
+      "HasAttachment",
+      "Importance",
+      "Item[]",
+      "MeetingInviteOrUpdate",
+      "MessageHeader",
+      "NotTo",
+      "OnLocalMachine",
+      "OnlyToMe",
+      "OnOtherMachine",
+      "Parent",
+      "RecipientAddress",
+      "SenderAddress",
+      "SenderInAddressList",
+      "SentTo",
+      "Session",
+      "Subject",
+      "ToMe",
+      "ToOrCc"
+    ]
+  },
+  "_Rules": {
+    "Properties": [
+      "Application",
+      "Class",
+      "Count",
+      "IsRssRulesProcessingEnabled",
+      "Item[]",
+      "Parent",
+      "Session"
+    ],
+    "Methods": [
+      "Create",
+      "Remove",
+      "Save"
+    ]
+  },
+  "_SelectNamesDialog": {
+    "Properties": [
+      "AllowMultipleSelection",
+      "Application",
+      "BccLabel",
+      "Caption",
+      "CcLabel",
+      "Class",
+      "ForceResolution",
+      "InitialAddressList",
+      "NumberOfRecipientSelectors",
+      "Parent",
+      "Recipients",
+      "Session",
+      "ShowOnlyInitialAddressList",
+      "ToLabel"
+    ],
+    "Methods": [
+      "Display",
+      "SetDefaultDisplayMode"
+    ]
+  },
+  "_SenderInAddressListRuleCondition": {
+    "Properties": [
+      "AddressList",
+      "Application",
+      "Class",
+      "ConditionType",
+      "Enabled",
+      "Parent",
+      "Session"
+    ]
+  },
+  "_SendRuleAction": {
+    "Properties": [
+      "ActionType",
+      "Application",
+      "Class",
+      "Enabled",
+      "Parent",
+      "Recipients",
+      "Session"
+    ]
+  },
+  "_SharingItem": {
+    "Properties": [
+      "Actions",
+      "AllowWriteAccess",
+      "AlternateRecipientAllowed",
+      "Application",
+      "Attachments",
+      "AutoForwarded",
+      "BCC",
+      "BillingInformation",
+      "Body",
+      "BodyFormat",
+      "Categories",
+      "CC",
+      "Class",
+      "Companies",
+      "Conflicts",
+      "ConversationID",
+      "ConversationIndex",
+      "ConversationTopic",
+      "CreationTime",
+      "DeferredDeliveryTime",
+      "DeleteAfterSubmit",
+      "DownloadState",
+      "EnableSharedAttachments",
+      "EntryID",
+      "ExpiryTime",
+      "FlagDueBy",
+      "FlagIcon",
+      "FlagRequest",
+      "FlagStatus",
+      "FormDescription",
+      "GetInspector",
+      "HTMLBody",
+      "Importance",
+      "InternetCodepage",
+      "IsConflict",
+      "IsMarkedAsTask",
+      "ItemProperties",
+      "LastModificationTime",
+      "MAPIOBJECT",
+      "MarkForDownload",
+      "MessageClass",
+      "Mileage",
+      "NoAging",
+      "OriginatorDeliveryReportRequested",
+      "OutlookInternalVersion",
+      "OutlookVersion",
+      "Parent",
+      "Permission",
+      "PermissionService",
+      "PermissionTemplateGuid",
+      "PropertyAccessor",
+      "ReadReceiptRequested",
+      "ReceivedByEntryID",
+      "ReceivedByName",
+      "ReceivedOnBehalfOfEntryID",
+      "ReceivedOnBehalfOfName",
+      "ReceivedTime",
+      "RecipientReassignmentProhibited",
+      "Recipients",
+      "ReminderOverrideDefault",
+      "ReminderPlaySound",
+      "ReminderSet",
+      "ReminderSoundFile",
+      "ReminderTime",
+      "RemoteID",
+      "RemoteName",
+      "RemotePath",
+      "RemoteStatus",
+      "ReplyRecipientNames",
+      "ReplyRecipients",
+      "RequestedFolder",
+      "RetentionExpirationDate",
+      "RetentionPolicyName",
+      "RTFBody",
+      "Saved",
+      "SaveSentMessageFolder",
+      "SenderEmailAddress",
+      "SenderEmailType",
+      "SenderName",
+      "SendUsingAccount",
+      "Sensitivity",
+      "Sent",
+      "SentOn",
+      "SentOnBehalfOfName",
+      "Session",
+      "SharingProvider",
+      "SharingProviderGuid",
+      "Size",
+      "Subject",
+      "Submitted",
+      "TaskCompletedDate",
+      "TaskDueDate",
+      "TaskStartDate",
+      "TaskSubject",
+      "To",
+      "ToDoTaskOrdinal",
+      "Type",
+      "UnRead",
+      "UserProperties"
+    ],
+    "Methods": [
+      "AddBusinessCard",
+      "Allow",
+      "ClearConversationIndex",
+      "ClearTaskFlag",
+      "Close",
+      "Copy",
+      "Delete",
+      "Deny",
+      "Display",
+      "Forward",
+      "GetConversation",
+      "MarkAsTask",
+      "Move",
+      "OpenSharedFolder",
+      "PrintOut",
+      "Reply",
+      "ReplyAll",
+      "Save",
+      "SaveAs",
+      "Send",
+      "ShowCategoriesDialog"
+    ]
+  },
+  "_SimpleItems": {
+    "Properties": {}
+  },
+  "_SolutionsModule": {
+    "Properties": {},
+    "Methods": [
+      "AddSolution"
+    ]
+  },
+  "_StorageItem": {
+    "Properties": [
+      "Application",
+      "Attachments",
+      "Body",
+      "Class",
+      "CreationTime",
+      "Creator",
+      "EntryID",
+      "LastModificationTime",
+      "Parent",
+      "PropertyAccessor",
+      "Session",
+      "Size",
+      "Subject",
+      "UserProperties"
+    ],
+    "Methods": [
+      "Delete",
+      "Save"
+    ]
+  },
+  "_Store": {
+    "Properties": [
+      "Application",
+      "Categories",
+      "Class",
+      "DisplayName",
+      "ExchangeStoreType",
+      "FilePath",
+      "IsCachedExchange",
+      "IsConversationEnabled",
+      "IsDataFileStore",
+      "IsInstantSearchEnabled",
+      "IsOpen",
+      "MAPIOBJECT",
+      "Parent",
+      "PropertyAccessor",
+      "Session",
+      "StoreID"
+    ],
+    "Methods": [
+      "GetDefaultFolder",
+      "GetRootFolder",
+      "GetRules",
+      "GetSearchFolders",
+      "GetSpecialFolder",
+      "RefreshQuotaDisplay"
+    ]
+  },
+  "_Stores": {
+    "Properties": {}
+  },
+  "_SyncObject": {
+    "Properties": {},
+    "Methods": [
+      "Start",
+      "Stop"
+    ]
+  },
+  "_Table": {
+    "Properties": [
+      "Application",
+      "Class",
+      "Columns",
+      "EndOfTable",
+      "Parent",
+      "Session"
+    ],
+    "Methods": [
+      "FindNextRow",
+      "FindRow",
+      "GetArray",
+      "GetNextRow",
+      "GetRowCount",
+      "MoveToStart",
+      "Restrict",
+      "Sort"
+    ]
+  },
+  "_TableView": {
+    "Properties": [
+      "AllowInCellEditing",
+      "AlwaysExpandConversation",
+      "Application",
+      "AutoFormatRules",
+      "AutomaticColumnSizing",
+      "AutomaticGrouping",
+      "AutoPreview",
+      "AutoPreviewFont",
+      "Class",
+      "ColumnFont",
+      "DefaultExpandCollapseSetting",
+      "Filter",
+      "GridLineStyle",
+      "GroupByFields",
+      "HideReadingPaneHeaderInfo",
+      "Language",
+      "LockUserChanges",
+      "MaxLinesInMultiLineView",
+      "MultiLine",
+      "MultiLineWidth",
+      "Name",
+      "Parent",
+      "RowFont",
+      "SaveOption",
+      "Session",
+      "ShowConversationByDate",
+      "ShowConversationSendersAboveSubject",
+      "ShowFullConversations",
+      "ShowItemsInGroups",
+      "ShowNewItemRow",
+      "ShowReadingPane",
+      "ShowUnreadAndFlaggedMessages",
+      "SortFields",
+      "Standard",
+      "ViewFields",
+      "ViewType",
+      "XML"
+    ],
+    "Methods": [
+      "Apply",
+      "Copy",
+      "Delete",
+      "GetTable",
+      "GoToDate",
+      "Reset",
+      "Save"
+    ]
+  },
+  "_TaskItem": {
+    "Properties": [
+      "Actions",
+      "ActualWork",
+      "Application",
+      "Attachments",
+      "AutoResolvedWinner",
+      "BillingInformation",
+      "Body",
+      "CardData",
+      "Categories",
+      "Class",
+      "Companies",
+      "Complete",
+      "Conflicts",
+      "ContactNames",
+      "Contacts",
+      "ConversationID",
+      "ConversationIndex",
+      "ConversationTopic",
+      "CreationTime",
+      "DateCompleted",
+      "DelegationState",
+      "Delegator",
+      "DownloadState",
+      "DueDate",
+      "EntryID",
+      "FormDescription",
+      "GetInspector",
+      "Importance",
+      "InternetCodepage",
+      "IsConflict",
+      "IsRecurring",
+      "ItemProperties",
+      "LastModificationTime",
+      "Links",
+      "MAPIOBJECT",
+      "MarkForDownload",
+      "MessageClass",
+      "Mileage",
+      "NoAging",
+      "Ordinal",
+      "OutlookInternalVersion",
+      "OutlookVersion",
+      "Owner",
+      "Ownership",
+      "Parent",
+      "PercentComplete",
+      "PropertyAccessor",
+      "Recipients",
+      "ReminderOverrideDefault",
+      "ReminderPlaySound",
+      "ReminderSet",
+      "ReminderSoundFile",
+      "ReminderTime",
+      "ResponseState",
+      "Role",
+      "RTFBody",
+      "Saved",
+      "SchedulePlusPriority",
+      "SendUsingAccount",
+      "Sensitivity",
+      "Session",
+      "Size",
+      "StartDate",
+      "Status",
+      "StatusOnCompletionRecipients",
+      "StatusUpdateRecipients",
+      "Subject",
+      "TeamTask",
+      "ToDoTaskOrdinal",
+      "TotalWork",
+      "UnRead",
+      "UserProperties"
+    ],
+    "Methods": [
+      "Assign",
+      "CancelResponseState",
+      "ClearRecurrencePattern",
+      "Close",
+      "Copy",
+      "Delete",
+      "Display",
+      "GetConversation",
+      "GetRecurrencePattern",
+      "MarkComplete",
+      "Move",
+      "PrintOut",
+      "Respond",
+      "Save",
+      "SaveAs",
+      "Send",
+      "ShowCategoriesDialog",
+      "SkipRecurrence",
+      "StatusReport"
+    ]
+  },
+  "_TaskRequestAcceptItem": {
+    "Properties": [
+      "Actions",
+      "Application",
+      "Attachments",
+      "AutoResolvedWinner",
+      "BillingInformation",
+      "Body",
+      "Categories",
+      "Class",
+      "Companies",
+      "Conflicts",
+      "ConversationID",
+      "ConversationIndex",
+      "ConversationTopic",
+      "CreationTime",
+      "DownloadState",
+      "EntryID",
+      "FormDescription",
+      "GetInspector",
+      "Importance",
+      "IsConflict",
+      "ItemProperties",
+      "LastModificationTime",
+      "Links",
+      "MAPIOBJECT",
+      "MarkForDownload",
+      "MessageClass",
+      "Mileage",
+      "NoAging",
+      "OutlookInternalVersion",
+      "OutlookVersion",
+      "Parent",
+      "PropertyAccessor",
+      "RTFBody",
+      "Saved",
+      "Sensitivity",
+      "Session",
+      "Size",
+      "Subject",
+      "UnRead",
+      "UserProperties"
+    ],
+    "Methods": [
+      "Close",
+      "Copy",
+      "Delete",
+      "Display",
+      "GetAssociatedTask",
+      "GetConversation",
+      "Move",
+      "PrintOut",
+      "Save",
+      "SaveAs",
+      "ShowCategoriesDialog"
+    ]
+  },
+  "_TaskRequestDeclineItem": {
+    "Properties": {},
+    "Methods": {}
+  },
+  "_TaskRequestItem": {
+    "Properties": {},
+    "Methods": {}
+  },
+  "_TaskRequestUpdateItem": {
+    "Properties": {},
+    "Methods": {}
+  },
+  "_TasksModule": {
+    "Properties": {}
+  },
+  "_TextRuleCondition": {
+    "Properties": [
+      "Application",
+      "Class",
+      "ConditionType",
+      "Enabled",
+      "Parent",
+      "Session",
+      "Text"
+    ]
+  },
+  "_TimelineView": {
+    "Properties": [
+      "Application",
+      "Class",
+      "DefaultExpandCollapseSetting",
+      "EndField",
+      "Filter",
+      "GroupByFields",
+      "ItemFont",
+      "Language",
+      "LockUserChanges",
+      "LowerScaleFont",
+      "MaxLabelWidth",
+      "Name",
+      "Parent",
+      "SaveOption",
+      "Session",
+      "ShowLabelWhenViewingByMonth",
+      "ShowWeekNumbers",
+      "Standard",
+      "StartField",
+      "TimelineViewMode",
+      "UpperScaleFont",
+      "ViewType",
+      "XML"
+    ],
+    "Methods": {}
+  },
+  "_TimeZone": {
+    "Properties": [
+      "Application",
+      "Bias",
+      "Class",
+      "DaylightBias",
+      "DaylightDate",
+      "DaylightDesignation",
+      "ID",
+      "Name",
+      "Parent",
+      "Session",
+      "StandardBias",
+      "StandardDate",
+      "StandardDesignation"
+    ]
+  },
+  "_TimeZones": {
+    "Properties": [
+      "Application",
+      "Class",
+      "Count",
+      "CurrentTimeZone",
+      "Item[]",
+      "Parent",
+      "Session"
+    ],
+    "Methods": [
+      "ConvertTime"
+    ]
+  },
+  "_ToOrFromRuleCondition": {
+    "Properties": [
+      "Application",
+      "Class",
+      "ConditionType",
+      "Enabled",
+      "Parent",
+      "Recipients",
+      "Session"
+    ]
+  },
+  "_UserDefinedProperties": {
+    "Properties": {},
+    "Methods": [
+      "Add",
+      "Find",
+      "Refresh",
+      "Remove"
+    ]
+  },
+  "_UserDefinedProperty": {
+    "Properties": [
+      "Application",
+      "Class",
+      "DisplayFormat",
+      "Formula",
+      "Name",
+      "Parent",
+      "Session",
+      "Type"
+    ],
+    "Methods": [
+      "Delete"
+    ]
+  },
+  "_ViewField": {
+    "Properties": [
+      "Application",
+      "Class",
+      "ColumnFormat",
+      "Parent",
+      "Session",
+      "ViewXMLSchemaName"
+    ]
+  },
+  "_ViewFields": {
+    "Properties": {},
+    "Methods": [
+      "Add",
+      "Insert",
+      "Remove"
+    ]
+  },
+  "_ViewFont": {
+    "Properties": [
+      "Application",
+      "Bold",
+      "Class",
+      "Color",
+      "ExtendedColor",
+      "Italic",
+      "Name",
+      "Parent",
+      "Session",
+      "Size",
+      "Strikethrough",
+      "Underline"
+    ]
+  },
+  "_Views": {
+    "Properties": {},
+    "Methods": [
+      "Add",
+      "GetEnumerator",
+      "Remove"
+    ]
+  },
+  "_ViewsEvents": {
+    "Methods": [
+      "ViewAdd",
+      "ViewRemove"
+    ]
+  },
+  "_ViewsEvents_Event": {
+    "Events": [
+      "ViewAdd",
+      "ViewRemove"
+    ]
+  },
+  "_ViewsEvents_SinkHelper": {
+    "Fields": [
+      "m_dwCookie",
+      "m_ViewAddDelegate",
+      "m_ViewRemoveDelegate"
+    ],
+    "Methods": {}
+  },
+  "AccountClass": {
+    "Properties": {},
+    "Methods": {}
+  },
+  "AccountRuleConditionClass": {
+    "Properties": {}
+  },
+  "AccountsClass": {
+    "Properties": {},
+    "Events": [
+      "AutoDiscoverComplete"
+    ]
+  },
+  "AccountSelectorClass": {
+    "Properties": {},
+    "Events": [
+      "SelectedAccountChange"
+    ]
+  },
+  "AccountSelectorEvents": {
+    "Methods": [
+      "SelectedAccountChange"
+    ]
+  },
+  "AccountSelectorEvents_Event": {
+    "Events": {}
+  },
+  "AccountSelectorEvents_SinkHelper": {
+    "Fields": [
+      "m_dwCookie",
+      "m_SelectedAccountChangeDelegate"
+    ],
+    "Methods": {}
+  },
+  "AccountsEvents": {
+    "Methods": [
+      "AutoDiscoverComplete"
+    ]
+  },
+  "AccountsEvents_Event": {
+    "Events": {}
+  },
+  "AccountsEvents_SinkHelper": {
+    "Fields": [
+      "m_AutoDiscoverCompleteDelegate",
+      "m_dwCookie"
+    ],
+    "Methods": {}
+  },
+  "Action": {
+    "Properties": [
+      "Application",
+      "Class",
+      "CopyLike",
+      "Enabled",
+      "MessageClass",
+      "Name",
+      "Parent",
+      "Prefix",
+      "ReplyStyle",
+      "ResponseStyle",
+      "Session",
+      "ShowOn"
+    ],
+    "Methods": [
+      "Delete",
+      "Execute"
+    ]
+  },
+  "Actions": {
+    "Properties": {},
+    "Methods": {}
+  },
+  "AddressEntries": {
+    "Properties": {},
+    "Methods": [
+      "Add",
+      "GetFirst",
+      "GetLast",
+      "GetNext",
+      "GetPrevious",
+      "Sort"
+    ]
+  },
+  "AddressEntry": {
+    "Properties": [
+      "Address",
+      "AddressEntryUserType",
+      "Application",
+      "Class",
+      "DisplayType",
+      "ID",
+      "Manager",
+      "MAPIOBJECT",
+      "Members",
+      "Name",
+      "Parent",
+      "PropertyAccessor",
+      "Session",
+      "Type"
+    ],
+    "Methods": [
+      "Delete",
+      "Details",
+      "GetContact",
+      "GetExchangeDistributionList",
+      "GetExchangeUser",
+      "GetFreeBusy",
+      "Update",
+      "UpdateFreeBusy"
+    ]
+  },
+  "AddressList": {
+    "Properties": [
+      "AddressEntries",
+      "AddressListType",
+      "Application",
+      "Class",
+      "ID",
+      "Index",
+      "IsInitialAddressList",
+      "IsReadOnly",
+      "Name",
+      "Parent",
+      "PropertyAccessor",
+      "ResolutionOrder",
+      "Session"
+    ],
+    "Methods": [
+      "GetContactsFolder"
+    ]
+  },
+  "AddressLists": {
+    "Properties": {}
+  },
+  "AddressRuleConditionClass": {
+    "Properties": {}
+  },
+  "ApplicationClass": {
+    "Constructors": {},
+    "Properties": {},
+    "Methods": [
+      "ActiveExplorer",
+      "ActiveInspector",
+      "ActiveWindow",
+      "AdvancedSearch",
+      "ApplicationEvents_10_Event_add_AdvancedSearchComplete",
+      "ApplicationEvents_10_Event_add_AdvancedSearchStopped",
+      "ApplicationEvents_10_Event_add_ItemSend",
+      "ApplicationEvents_10_Event_add_MAPILogonComplete",
+      "ApplicationEvents_10_Event_add_NewMail",
+      "ApplicationEvents_10_Event_add_OptionsPagesAdd",
+      "ApplicationEvents_10_Event_add_Quit",
+      "ApplicationEvents_10_Event_add_Reminder",
+      "ApplicationEvents_10_Event_add_Startup",
+      "ApplicationEvents_10_Event_remove_AdvancedSearchComplete",
+      "ApplicationEvents_10_Event_remove_AdvancedSearchStopped",
+      "ApplicationEvents_10_Event_remove_ItemSend",
+      "ApplicationEvents_10_Event_remove_MAPILogonComplete",
+      "ApplicationEvents_10_Event_remove_NewMail",
+      "ApplicationEvents_10_Event_remove_OptionsPagesAdd",
+      "ApplicationEvents_10_Event_remove_Quit",
+      "ApplicationEvents_10_Event_remove_Reminder",
+      "ApplicationEvents_10_Event_remove_Startup",
+      "ApplicationEvents_Event_add_ItemSend",
+      "ApplicationEvents_Event_add_NewMail",
+      "ApplicationEvents_Event_add_OptionsPagesAdd",
+      "ApplicationEvents_Event_add_Quit",
+      "ApplicationEvents_Event_add_Reminder",
+      "ApplicationEvents_Event_add_Startup",
+      "ApplicationEvents_Event_remove_ItemSend",
+      "ApplicationEvents_Event_remove_NewMail",
+      "ApplicationEvents_Event_remove_OptionsPagesAdd",
+      "ApplicationEvents_Event_remove_Quit",
+      "ApplicationEvents_Event_remove_Reminder",
+      "ApplicationEvents_Event_remove_Startup",
+      "CopyFile",
+      "CreateItem",
+      "CreateItemFromTemplate",
+      "CreateObject",
+      "GetNamespace",
+      "GetNewNickNames",
+      "GetObjectReference",
+      "IsSearchSynchronous",
+      "Quit",
+      "RefreshFormRegionDefinition"
+    ],
+    "Events": [
+      "AdvancedSearchComplete",
+      "AdvancedSearchStopped",
+      "ApplicationEvents_10_Event_AdvancedSearchComplete",
+      "ApplicationEvents_10_Event_AdvancedSearchStopped",
+      "ApplicationEvents_10_Event_ItemSend",
+      "ApplicationEvents_10_Event_MAPILogonComplete",
+      "ApplicationEvents_10_Event_NewMail",
+      "ApplicationEvents_10_Event_OptionsPagesAdd",
+      "ApplicationEvents_10_Event_Quit",
+      "ApplicationEvents_10_Event_Reminder",
+      "ApplicationEvents_10_Event_Startup",
+      "ApplicationEvents_11_Event_Quit",
+      "ApplicationEvents_Event_ItemSend",
+      "ApplicationEvents_Event_NewMail",
+      "ApplicationEvents_Event_OptionsPagesAdd",
+      "ApplicationEvents_Event_Quit",
+      "ApplicationEvents_Event_Reminder",
+      "ApplicationEvents_Event_Startup",
+      "AttachmentContextMenuDisplay",
+      "BeforeFolderSharingDialog",
+      "ContextMenuClose",
+      "FolderContextMenuDisplay",
+      "ItemContextMenuDisplay",
+      "ItemLoad",
+      "ItemSend",
+      "MAPILogonComplete",
+      "NewMail",
+      "NewMailEx",
+      "OptionsPagesAdd",
+      "Reminder",
+      "ShortcutContextMenuDisplay",
+      "Startup",
+      "StoreContextMenuDisplay",
+      "ViewContextMenuDisplay"
+    ]
+  },
+  "ApplicationEvents": {
+    "Methods": [
+      "ItemSend",
+      "NewMail",
+      "OptionsPagesAdd",
+      "Quit",
+      "Reminder",
+      "Startup"
+    ]
+  },
+  "ApplicationEvents_10": {
+    "Methods": [
+      "AdvancedSearchComplete",
+      "AdvancedSearchStopped",
+      "ItemSend",
+      "MAPILogonComplete",
+      "NewMail",
+      "OptionsPagesAdd",
+      "Quit",
+      "Reminder",
+      "Startup"
+    ]
+  },
+  "ApplicationEvents_10_Event": {
+    "Events": [
+      "AdvancedSearchComplete",
+      "AdvancedSearchStopped",
+      "ItemSend",
+      "MAPILogonComplete",
+      "NewMail",
+      "OptionsPagesAdd",
+      "Quit",
+      "Reminder",
+      "Startup"
+    ]
+  },
+  "ApplicationEvents_10_SinkHelper": {
+    "Fields": [
+      "m_AdvancedSearchCompleteDelegate",
+      "m_AdvancedSearchStoppedDelegate",
+      "m_dwCookie",
+      "m_ItemSendDelegate",
+      "m_MAPILogonCompleteDelegate",
+      "m_NewMailDelegate",
+      "m_OptionsPagesAddDelegate",
+      "m_QuitDelegate",
+      "m_ReminderDelegate",
+      "m_StartupDelegate"
+    ],
+    "Methods": {}
+  },
+  "ApplicationEvents_11": {
+    "Methods": [
+      "AdvancedSearchComplete",
+      "AdvancedSearchStopped",
+      "AttachmentContextMenuDisplay",
+      "BeforeFolderSharingDialog",
+      "ContextMenuClose",
+      "FolderContextMenuDisplay",
+      "ItemContextMenuDisplay",
+      "ItemLoad",
+      "ItemSend",
+      "MAPILogonComplete",
+      "NewMail",
+      "NewMailEx",
+      "OptionsPagesAdd",
+      "Quit",
+      "Reminder",
+      "ShortcutContextMenuDisplay",
+      "Startup",
+      "StoreContextMenuDisplay",
+      "ViewContextMenuDisplay"
+    ]
+  },
+  "ApplicationEvents_11_Event": {
+    "Events": [
+      "AdvancedSearchComplete",
+      "AdvancedSearchStopped",
+      "AttachmentContextMenuDisplay",
+      "BeforeFolderSharingDialog",
+      "ContextMenuClose",
+      "FolderContextMenuDisplay",
+      "ItemContextMenuDisplay",
+      "ItemLoad",
+      "ItemSend",
+      "MAPILogonComplete",
+      "NewMail",
+      "NewMailEx",
+      "OptionsPagesAdd",
+      "Quit",
+      "Reminder",
+      "ShortcutContextMenuDisplay",
+      "Startup",
+      "StoreContextMenuDisplay",
+      "ViewContextMenuDisplay"
+    ]
+  },
+  "ApplicationEvents_11_SinkHelper": {
+    "Fields": [
+      "m_AdvancedSearchCompleteDelegate",
+      "m_AdvancedSearchStoppedDelegate",
+      "m_AttachmentContextMenuDisplayDelegate",
+      "m_BeforeFolderSharingDialogDelegate",
+      "m_ContextMenuCloseDelegate",
+      "m_dwCookie",
+      "m_FolderContextMenuDisplayDelegate",
+      "m_ItemContextMenuDisplayDelegate",
+      "m_ItemLoadDelegate",
+      "m_ItemSendDelegate",
+      "m_MAPILogonCompleteDelegate",
+      "m_NewMailDelegate",
+      "m_NewMailExDelegate",
+      "m_OptionsPagesAddDelegate",
+      "m_QuitDelegate",
+      "m_ReminderDelegate",
+      "m_ShortcutContextMenuDisplayDelegate",
+      "m_StartupDelegate",
+      "m_StoreContextMenuDisplayDelegate",
+      "m_ViewContextMenuDisplayDelegate"
+    ],
+    "Methods": {}
+  },
+  "ApplicationEvents_Event": {
+    "Events": [
+      "ItemSend",
+      "NewMail",
+      "OptionsPagesAdd",
+      "Quit",
+      "Reminder",
+      "Startup"
+    ]
+  },
+  "ApplicationEvents_SinkHelper": {
+    "Fields": [
+      "m_dwCookie",
+      "m_ItemSendDelegate",
+      "m_NewMailDelegate",
+      "m_OptionsPagesAddDelegate",
+      "m_QuitDelegate",
+      "m_ReminderDelegate",
+      "m_StartupDelegate"
+    ],
+    "Methods": {}
+  },
+  "AppointmentItemClass": {
+    "Properties": {},
+    "Methods": [
+      "ClearRecurrencePattern",
+      "Close",
+      "Copy",
+      "CopyTo",
+      "Delete",
+      "Display",
+      "ForwardAsVcal",
+      "GetConversation",
+      "GetOrganizer",
+      "GetRecurrencePattern",
+      "ItemEvents_Event_add_AttachmentAdd",
+      "ItemEvents_Event_add_AttachmentRead",
+      "ItemEvents_Event_add_BeforeAttachmentSave",
+      "ItemEvents_Event_add_BeforeCheckNames",
+      "ItemEvents_Event_add_Close",
+      "ItemEvents_Event_add_CustomAction",
+      "ItemEvents_Event_add_CustomPropertyChange",
+      "ItemEvents_Event_add_Forward",
+      "ItemEvents_Event_add_Open",
+      "ItemEvents_Event_add_PropertyChange",
+      "ItemEvents_Event_add_Read",
+      "ItemEvents_Event_add_Reply",
+      "ItemEvents_Event_add_ReplyAll",
+      "ItemEvents_Event_add_Send",
+      "ItemEvents_Event_add_Write",
+      "ItemEvents_Event_remove_AttachmentAdd",
+      "ItemEvents_Event_remove_AttachmentRead",
+      "ItemEvents_Event_remove_BeforeAttachmentSave",
+      "ItemEvents_Event_remove_BeforeCheckNames",
+      "ItemEvents_Event_remove_Close",
+      "ItemEvents_Event_remove_CustomAction",
+      "ItemEvents_Event_remove_CustomPropertyChange",
+      "ItemEvents_Event_remove_Forward",
+      "ItemEvents_Event_remove_Open",
+      "ItemEvents_Event_remove_PropertyChange",
+      "ItemEvents_Event_remove_Read",
+      "ItemEvents_Event_remove_Reply",
+      "ItemEvents_Event_remove_ReplyAll",
+      "ItemEvents_Event_remove_Send",
+      "ItemEvents_Event_remove_Write",
+      "Move",
+      "PrintOut",
+      "Respond",
+      "Save",
+      "SaveAs",
+      "Send",
+      "ShowCategoriesDialog"
+    ],
+    "Events": [
+      "AfterWrite",
+      "AttachmentAdd",
+      "AttachmentRead",
+      "AttachmentRemove",
+      "BeforeAttachmentAdd",
+      "BeforeAttachmentPreview",
+      "BeforeAttachmentRead",
+      "BeforeAttachmentSave",
+      "BeforeAttachmentWriteToTempFile",
+      "BeforeAutoSave",
+      "BeforeCheckNames",
+      "BeforeDelete",
+      "BeforeRead",
+      "CustomAction",
+      "CustomPropertyChange",
+      "Forward",
+      "ItemEvents_10_Event_Close",
+      "ItemEvents_10_Event_Send",
+      "ItemEvents_Event_AttachmentAdd",
+      "ItemEvents_Event_AttachmentRead",
+      "ItemEvents_Event_BeforeAttachmentSave",
+      "ItemEvents_Event_BeforeCheckNames",
+      "ItemEvents_Event_Close",
+      "ItemEvents_Event_CustomAction",
+      "ItemEvents_Event_CustomPropertyChange",
+      "ItemEvents_Event_Forward",
+      "ItemEvents_Event_Open",
+      "ItemEvents_Event_PropertyChange",
+      "ItemEvents_Event_Read",
+      "ItemEvents_Event_Reply",
+      "ItemEvents_Event_ReplyAll",
+      "ItemEvents_Event_Send",
+      "ItemEvents_Event_Write",
+      "Open",
+      "PropertyChange",
+      "Read",
+      "ReadComplete",
+      "Reply",
+      "ReplyAll",
+      "Unload",
+      "Write"
+    ]
+  },
+  "AssignToCategoryRuleActionClass": {
+    "Properties": {}
+  },
+  "Attachment": {
+    "Properties": [
+      "Application",
+      "BlockLevel",
+      "Class",
+      "DisplayName",
+      "FileName",
+      "Index",
+      "MAPIOBJECT",
+      "Parent",
+      "PathName",
+      "Position",
+      "PropertyAccessor",
+      "Session",
+      "Size",
+      "Type"
+    ],
+    "Methods": [
+      "Delete",
+      "GetTemporaryFilePath",
+      "SaveAsFile"
+    ]
+  },
+  "Attachments": {
+    "Properties": {},
+    "Methods": {}
+  },
+  "AttachmentSelectionClass": {
+    "Properties": {},
+    "Methods": {}
+  },
+  "AutoFormatRuleClass": {
+    "Properties": {}
+  },
+  "AutoFormatRulesClass": {
+    "Properties": {},
+    "Methods": {}
+  },
+  "BusinessCardViewClass": {
+    "Properties": {},
+    "Methods": {}
+  },
+  "CalendarModuleClass": {
+    "Properties": {}
+  },
+  "CalendarSharingClass": {
+    "Properties": {},
+    "Methods": {}
+  },
+  "CalendarViewClass": {
+    "Properties": {},
+    "Methods": {}
+  },
+  "CardViewClass": {
+    "Properties": {},
+    "Methods": {}
+  },
+  "CategoriesClass": {
+    "Properties": {},
+    "Methods": {}
+  },
+  "CategoryClass": {
+    "Properties": {}
+  },
+  "CategoryRuleConditionClass": {
+    "Properties": {}
+  },
+  "ColumnClass": {
+    "Properties": {}
+  },
+  "ColumnFormatClass": {
+    "Properties": {}
+  },
+  "ColumnsClass": {
+    "Properties": {},
+    "Methods": {}
+  },
+  "Conflict": {
+    "Properties": [
+      "Application",
+      "Class",
+      "Item",
+      "Name",
+      "Parent",
+      "Session",
+      "Type"
+    ]
+  },
+  "Conflicts": {
+    "Properties": {},
+    "Methods": [
+      "GetFirst",
+      "GetLast",
+      "GetNext",
+      "GetPrevious"
+    ]
+  },
+  "ContactItemClass": {
+    "Properties": {},
+    "Methods": [
+      "AddBusinessCardLogoPicture",
+      "AddPicture",
+      "ClearTaskFlag",
+      "Close",
+      "Copy",
+      "Delete",
+      "Display",
+      "ForwardAsBusinessCard",
+      "ForwardAsVcard",
+      "GetConversation",
+      "ItemEvents_Event_add_AttachmentAdd",
+      "ItemEvents_Event_add_AttachmentRead",
+      "ItemEvents_Event_add_BeforeAttachmentSave",
+      "ItemEvents_Event_add_BeforeCheckNames",
+      "ItemEvents_Event_add_Close",
+      "ItemEvents_Event_add_CustomAction",
+      "ItemEvents_Event_add_CustomPropertyChange",
+      "ItemEvents_Event_add_Forward",
+      "ItemEvents_Event_add_Open",
+      "ItemEvents_Event_add_PropertyChange",
+      "ItemEvents_Event_add_Read",
+      "ItemEvents_Event_add_Reply",
+      "ItemEvents_Event_add_ReplyAll",
+      "ItemEvents_Event_add_Send",
+      "ItemEvents_Event_add_Write",
+      "ItemEvents_Event_remove_AttachmentAdd",
+      "ItemEvents_Event_remove_AttachmentRead",
+      "ItemEvents_Event_remove_BeforeAttachmentSave",
+      "ItemEvents_Event_remove_BeforeCheckNames",
+      "ItemEvents_Event_remove_Close",
+      "ItemEvents_Event_remove_CustomAction",
+      "ItemEvents_Event_remove_CustomPropertyChange",
+      "ItemEvents_Event_remove_Forward",
+      "ItemEvents_Event_remove_Open",
+      "ItemEvents_Event_remove_PropertyChange",
+      "ItemEvents_Event_remove_Read",
+      "ItemEvents_Event_remove_Reply",
+      "ItemEvents_Event_remove_ReplyAll",
+      "ItemEvents_Event_remove_Send",
+      "ItemEvents_Event_remove_Write",
+      "MarkAsTask",
+      "Move",
+      "PrintOut",
+      "RemovePicture",
+      "ResetBusinessCard",
+      "Save",
+      "SaveAs",
+      "SaveBusinessCardImage",
+      "ShowBusinessCardEditor",
+      "ShowCategoriesDialog",
+      "ShowCheckAddressDialog",
+      "ShowCheckFullNameDialog",
+      "ShowCheckPhoneDialog"
+    ],
+    "Events": [
+      "AfterWrite",
+      "AttachmentAdd",
+      "AttachmentRead",
+      "AttachmentRemove",
+      "BeforeAttachmentAdd",
+      "BeforeAttachmentPreview",
+      "BeforeAttachmentRead",
+      "BeforeAttachmentSave",
+      "BeforeAttachmentWriteToTempFile",
+      "BeforeAutoSave",
+      "BeforeCheckNames",
+      "BeforeDelete",
+      "BeforeRead",
+      "CustomAction",
+      "CustomPropertyChange",
+      "Forward",
+      "ItemEvents_10_Event_Close",
+      "ItemEvents_Event_AttachmentAdd",
+      "ItemEvents_Event_AttachmentRead",
+      "ItemEvents_Event_BeforeAttachmentSave",
+      "ItemEvents_Event_BeforeCheckNames",
+      "ItemEvents_Event_Close",
+      "ItemEvents_Event_CustomAction",
+      "ItemEvents_Event_CustomPropertyChange",
+      "ItemEvents_Event_Forward",
+      "ItemEvents_Event_Open",
+      "ItemEvents_Event_PropertyChange",
+      "ItemEvents_Event_Read",
+      "ItemEvents_Event_Reply",
+      "ItemEvents_Event_ReplyAll",
+      "ItemEvents_Event_Send",
+      "ItemEvents_Event_Write",
+      "Open",
+      "PropertyChange",
+      "Read",
+      "ReadComplete",
+      "Reply",
+      "ReplyAll",
+      "Send",
+      "Unload",
+      "Write"
+    ]
+  },
+  "ContactsModuleClass": {
+    "Properties": {}
+  },
+  "ConversationClass": {
+    "Properties": {},
+    "Methods": {}
+  },
+  "ConversationHeaderClass": {
+    "Properties": {},
+    "Methods": {}
+  },
+  "DistListItemClass": {
+    "Properties": {},
+    "Methods": [
+      "AddMember",
+      "AddMembers",
+      "ClearTaskFlag",
+      "Close",
+      "Copy",
+      "Delete",
+      "Display",
+      "GetConversation",
+      "GetMember",
+      "ItemEvents_Event_add_AttachmentAdd",
+      "ItemEvents_Event_add_AttachmentRead",
+      "ItemEvents_Event_add_BeforeAttachmentSave",
+      "ItemEvents_Event_add_BeforeCheckNames",
+      "ItemEvents_Event_add_Close",
+      "ItemEvents_Event_add_CustomAction",
+      "ItemEvents_Event_add_CustomPropertyChange",
+      "ItemEvents_Event_add_Forward",
+      "ItemEvents_Event_add_Open",
+      "ItemEvents_Event_add_PropertyChange",
+      "ItemEvents_Event_add_Read",
+      "ItemEvents_Event_add_Reply",
+      "ItemEvents_Event_add_ReplyAll",
+      "ItemEvents_Event_add_Send",
+      "ItemEvents_Event_add_Write",
+      "ItemEvents_Event_remove_AttachmentAdd",
+      "ItemEvents_Event_remove_AttachmentRead",
+      "ItemEvents_Event_remove_BeforeAttachmentSave",
+      "ItemEvents_Event_remove_BeforeCheckNames",
+      "ItemEvents_Event_remove_Close",
+      "ItemEvents_Event_remove_CustomAction",
+      "ItemEvents_Event_remove_CustomPropertyChange",
+      "ItemEvents_Event_remove_Forward",
+      "ItemEvents_Event_remove_Open",
+      "ItemEvents_Event_remove_PropertyChange",
+      "ItemEvents_Event_remove_Read",
+      "ItemEvents_Event_remove_Reply",
+      "ItemEvents_Event_remove_ReplyAll",
+      "ItemEvents_Event_remove_Send",
+      "ItemEvents_Event_remove_Write",
+      "MarkAsTask",
+      "Move",
+      "PrintOut",
+      "RemoveMember",
+      "RemoveMembers",
+      "Save",
+      "SaveAs",
+      "ShowCategoriesDialog"
+    ],
+    "Events": {}
+  },
+  "DocumentItemClass": {
+    "Properties": {},
+    "Methods": [
+      "Close",
+      "Copy",
+      "Delete",
+      "Display",
+      "ItemEvents_Event_add_AttachmentAdd",
+      "ItemEvents_Event_add_AttachmentRead",
+      "ItemEvents_Event_add_BeforeAttachmentSave",
+      "ItemEvents_Event_add_BeforeCheckNames",
+      "ItemEvents_Event_add_Close",
+      "ItemEvents_Event_add_CustomAction",
+      "ItemEvents_Event_add_CustomPropertyChange",
+      "ItemEvents_Event_add_Forward",
+      "ItemEvents_Event_add_Open",
+      "ItemEvents_Event_add_PropertyChange",
+      "ItemEvents_Event_add_Read",
+      "ItemEvents_Event_add_Reply",
+      "ItemEvents_Event_add_ReplyAll",
+      "ItemEvents_Event_add_Send",
+      "ItemEvents_Event_add_Write",
+      "ItemEvents_Event_remove_AttachmentAdd",
+      "ItemEvents_Event_remove_AttachmentRead",
+      "ItemEvents_Event_remove_BeforeAttachmentSave",
+      "ItemEvents_Event_remove_BeforeCheckNames",
+      "ItemEvents_Event_remove_Close",
+      "ItemEvents_Event_remove_CustomAction",
+      "ItemEvents_Event_remove_CustomPropertyChange",
+      "ItemEvents_Event_remove_Forward",
+      "ItemEvents_Event_remove_Open",
+      "ItemEvents_Event_remove_PropertyChange",
+      "ItemEvents_Event_remove_Read",
+      "ItemEvents_Event_remove_Reply",
+      "ItemEvents_Event_remove_ReplyAll",
+      "ItemEvents_Event_remove_Send",
+      "ItemEvents_Event_remove_Write",
+      "Move",
+      "PrintOut",
+      "Save",
+      "SaveAs",
+      "ShowCategoriesDialog"
+    ],
+    "Events": {}
+  },
+  "DoNotUseMeFolderClass": {
+    "Properties": [
+      "AddressBookName",
+      "Application",
+      "Class",
+      "CurrentView",
+      "CustomViewsOnly",
+      "DefaultItemType",
+      "DefaultMessageClass",
+      "Description",
+      "EntryID",
+      "FolderPath",
+      "Folders",
+      "FullFolderPath",
+      "InAppFolderSyncObject",
+      "IsSharePointFolder",
+      "Items",
+      "MAPIOBJECT",
+      "Name",
+      "Parent",
+      "PropertyAccessor",
+      "Session",
+      "ShowAsOutlookAB",
+      "ShowItemCount",
+      "Store",
+      "StoreID",
+      "UnReadItemCount",
+      "UserDefinedProperties",
+      "UserPermissions",
+      "Views",
+      "WebViewAllowNavigation",
+      "WebViewOn",
+      "WebViewURL"
+    ],
+    "Methods": [
+      "AddToFavorites",
+      "AddToPFFavorites",
+      "CopyTo",
+      "Delete",
+      "Display",
+      "GetCalendarExporter",
+      "GetCustomIcon",
+      "GetExplorer",
+      "GetStorage",
+      "GetTable",
+      "MoveTo",
+      "SetCustomIcon"
+    ]
+  },
+  "Exception": {
+    "Properties": [
+      "Application",
+      "AppointmentItem",
+      "Class",
+      "Deleted",
+      "ItemProperties",
+      "OriginalDate",
+      "Parent",
+      "Session"
+    ]
+  },
+  "Exceptions": {
+    "Properties": {}
+  },
+  "ExchangeDistributionListClass": {
+    "Properties": {},
+    "Methods": {}
+  },
+  "ExchangeUserClass": {
+    "Properties": {},
+    "Methods": {}
+  },
+  "ExplorerClass": {
+    "Properties": {},
+    "Methods": [
+      "Activate",
+      "AddToSelection",
+      "ClearSearch",
+      "ClearSelection",
+      "Close",
+      "DeselectFolder",
+      "Display",
+      "ExplorerEvents_Event_add_Activate",
+      "ExplorerEvents_Event_add_BeforeFolderSwitch",
+      "ExplorerEvents_Event_add_BeforeViewSwitch",
+      "ExplorerEvents_Event_add_Close",
+      "ExplorerEvents_Event_add_Deactivate",
+      "ExplorerEvents_Event_add_FolderSwitch",
+      "ExplorerEvents_Event_add_SelectionChange",
+      "ExplorerEvents_Event_add_ViewSwitch",
+      "ExplorerEvents_Event_remove_Activate",
+      "ExplorerEvents_Event_remove_BeforeFolderSwitch",
+      "ExplorerEvents_Event_remove_BeforeViewSwitch",
+      "ExplorerEvents_Event_remove_Close",
+      "ExplorerEvents_Event_remove_Deactivate",
+      "ExplorerEvents_Event_remove_FolderSwitch",
+      "ExplorerEvents_Event_remove_SelectionChange",
+      "ExplorerEvents_Event_remove_ViewSwitch",
+      "IsFolderSelected",
+      "IsItemSelectableInView",
+      "IsPaneVisible",
+      "RemoveFromSelection",
+      "Search",
+      "SelectAllItems",
+      "SelectFolder",
+      "ShowPane"
+    ],
+    "Events": [
+      "AttachmentSelectionChange",
+      "BeforeFolderSwitch",
+      "BeforeItemCopy",
+      "BeforeItemCut",
+      "BeforeItemPaste",
+      "BeforeMaximize",
+      "BeforeMinimize",
+      "BeforeMove",
+      "BeforeSize",
+      "BeforeViewSwitch",
+      "Deactivate",
+      "ExplorerEvents_10_Event_Activate",
+      "ExplorerEvents_10_Event_Close",
+      "ExplorerEvents_Event_Activate",
+      "ExplorerEvents_Event_BeforeFolderSwitch",
+      "ExplorerEvents_Event_BeforeViewSwitch",
+      "ExplorerEvents_Event_Close",
+      "ExplorerEvents_Event_Deactivate",
+      "ExplorerEvents_Event_FolderSwitch",
+      "ExplorerEvents_Event_SelectionChange",
+      "ExplorerEvents_Event_ViewSwitch",
+      "FolderSwitch",
+      "InlineResponse",
+      "InlineResponseClose",
+      "SelectionChange",
+      "ViewSwitch"
+    ]
+  },
+  "ExplorerEvents": {
+    "Methods": [
+      "Activate",
+      "BeforeFolderSwitch",
+      "BeforeViewSwitch",
+      "Close",
+      "Deactivate",
+      "FolderSwitch",
+      "SelectionChange",
+      "ViewSwitch"
+    ]
+  },
+  "ExplorerEvents_10": {
+    "Methods": [
+      "Activate",
+      "AttachmentSelectionChange",
+      "BeforeFolderSwitch",
+      "BeforeItemCopy",
+      "BeforeItemCut",
+      "BeforeItemPaste",
+      "BeforeMaximize",
+      "BeforeMinimize",
+      "BeforeMove",
+      "BeforeSize",
+      "BeforeViewSwitch",
+      "Close",
+      "Deactivate",
+      "FolderSwitch",
+      "InlineResponse",
+      "InlineResponseClose",
+      "SelectionChange",
+      "ViewSwitch"
+    ]
+  },
+  "ExplorerEvents_10_Event": {
+    "Events": [
+      "Activate",
+      "AttachmentSelectionChange",
+      "BeforeFolderSwitch",
+      "BeforeItemCopy",
+      "BeforeItemCut",
+      "BeforeItemPaste",
+      "BeforeMaximize",
+      "BeforeMinimize",
+      "BeforeMove",
+      "BeforeSize",
+      "BeforeViewSwitch",
+      "Close",
+      "Deactivate",
+      "FolderSwitch",
+      "InlineResponse",
+      "InlineResponseClose",
+      "SelectionChange",
+      "ViewSwitch"
+    ]
+  },
+  "ExplorerEvents_10_SinkHelper": {
+    "Fields": [
+      "m_ActivateDelegate",
+      "m_AttachmentSelectionChangeDelegate",
+      "m_BeforeFolderSwitchDelegate",
+      "m_BeforeItemCopyDelegate",
+      "m_BeforeItemCutDelegate",
+      "m_BeforeItemPasteDelegate",
+      "m_BeforeMaximizeDelegate",
+      "m_BeforeMinimizeDelegate",
+      "m_BeforeMoveDelegate",
+      "m_BeforeSizeDelegate",
+      "m_BeforeViewSwitchDelegate",
+      "m_CloseDelegate",
+      "m_DeactivateDelegate",
+      "m_dwCookie",
+      "m_FolderSwitchDelegate",
+      "m_InlineResponseCloseDelegate",
+      "m_InlineResponseDelegate",
+      "m_SelectionChangeDelegate",
+      "m_ViewSwitchDelegate"
+    ],
+    "Methods": {}
+  },
+  "ExplorerEvents_Event": {
+    "Events": [
+      "Activate",
+      "BeforeFolderSwitch",
+      "BeforeViewSwitch",
+      "Close",
+      "Deactivate",
+      "FolderSwitch",
+      "SelectionChange",
+      "ViewSwitch"
+    ]
+  },
+  "ExplorerEvents_SinkHelper": {
+    "Fields": [
+      "m_ActivateDelegate",
+      "m_BeforeFolderSwitchDelegate",
+      "m_BeforeViewSwitchDelegate",
+      "m_CloseDelegate",
+      "m_DeactivateDelegate",
+      "m_dwCookie",
+      "m_FolderSwitchDelegate",
+      "m_SelectionChangeDelegate",
+      "m_ViewSwitchDelegate"
+    ],
+    "Methods": {}
+  },
+  "ExplorersClass": {
+    "Properties": {},
+    "Methods": {},
+    "Events": [
+      "NewExplorer"
+    ]
+  },
+  "ExplorersEvents": {
+    "Methods": [
+      "NewExplorer"
+    ]
+  },
+  "ExplorersEvents_Event": {
+    "Events": {}
+  },
+  "ExplorersEvents_SinkHelper": {
+    "Fields": [
+      "m_dwCookie",
+      "m_NewExplorerDelegate"
+    ],
+    "Methods": {}
+  },
+  "FolderClass": {
+    "Properties": {},
+    "Methods": {},
+    "Events": [
+      "BeforeFolderMove",
+      "BeforeItemMove"
+    ]
+  },
+  "FoldersClass": {
+    "Properties": {},
+    "Methods": {},
+    "Events": [
+      "FolderAdd",
+      "FolderChange",
+      "FolderRemove"
+    ]
+  },
+  "FoldersEvents": {
+    "Methods": [
+      "FolderAdd",
+      "FolderChange",
+      "FolderRemove"
+    ]
+  },
+  "FoldersEvents_Event": {
+    "Events": {}
+  },
+  "FoldersEvents_SinkHelper": {
+    "Fields": [
+      "m_dwCookie",
+      "m_FolderAddDelegate",
+      "m_FolderChangeDelegate",
+      "m_FolderRemoveDelegate"
+    ],
+    "Methods": {}
+  },
+  "FormDescription": {
+    "Properties": [
+      "Application",
+      "Category",
+      "CategorySub",
+      "Class",
+      "Comment",
+      "ContactName",
+      "DisplayName",
+      "Hidden",
+      "Icon",
+      "Locked",
+      "MessageClass",
+      "MiniIcon",
+      "Name",
+      "Number",
+      "OneOff",
+      "Parent",
+      "Password",
+      "ScriptText",
+      "Session",
+      "Template",
+      "UseWordMail",
+      "Version"
+    ],
+    "Methods": [
+      "PublishForm"
+    ]
+  },
+  "FormNameRuleConditionClass": {
+    "Properties": {}
+  },
+  "FormRegionClass": {
+    "Properties": {},
+    "Methods": {},
+    "Events": [
+      "Close",
+      "Expanded"
+    ]
+  },
+  "FormRegionEvents": {
+    "Methods": [
+      "Close",
+      "Expanded"
+    ]
+  },
+  "FormRegionEvents_Event": {
+    "Events": {}
+  },
+  "FormRegionEvents_SinkHelper": {
+    "Fields": [
+      "m_CloseDelegate",
+      "m_dwCookie",
+      "m_ExpandedDelegate"
+    ],
+    "Methods": {}
+  },
+  "FormRegionStartupClass": {
+    "Methods": {}
+  },
+  "FromRssFeedRuleConditionClass": {
+    "Properties": {}
+  },
+  "IconViewClass": {
+    "Properties": {},
+    "Methods": {}
+  },
+  "ImportanceRuleConditionClass": {
+    "Properties": {}
+  },
+  "InspectorClass": {
+    "Properties": {},
+    "Methods": [
+      "Activate",
+      "Close",
+      "Display",
+      "HideFormPage",
+      "InspectorEvents_Event_add_Activate",
+      "InspectorEvents_Event_add_Close",
+      "InspectorEvents_Event_add_Deactivate",
+      "InspectorEvents_Event_remove_Activate",
+      "InspectorEvents_Event_remove_Close",
+      "InspectorEvents_Event_remove_Deactivate",
+      "IsWordMail",
+      "NewFormRegion",
+      "OpenFormRegion",
+      "SaveFormRegion",
+      "SetControlItemProperty",
+      "SetCurrentFormPage",
+      "SetSchedulingStartTime",
+      "ShowFormPage"
+    ],
+    "Events": [
+      "AttachmentSelectionChange",
+      "BeforeMaximize",
+      "BeforeMinimize",
+      "BeforeMove",
+      "BeforeSize",
+      "Deactivate",
+      "InspectorEvents_10_Event_Activate",
+      "InspectorEvents_10_Event_Close",
+      "InspectorEvents_Event_Activate",
+      "InspectorEvents_Event_Close",
+      "InspectorEvents_Event_Deactivate",
+      "PageChange"
+    ]
+  },
+  "InspectorEvents": {
+    "Methods": [
+      "Activate",
+      "Close",
+      "Deactivate"
+    ]
+  },
+  "InspectorEvents_10": {
+    "Methods": [
+      "Activate",
+      "AttachmentSelectionChange",
+      "BeforeMaximize",
+      "BeforeMinimize",
+      "BeforeMove",
+      "BeforeSize",
+      "Close",
+      "Deactivate",
+      "PageChange"
+    ]
+  },
+  "InspectorEvents_10_Event": {
+    "Events": [
+      "Activate",
+      "AttachmentSelectionChange",
+      "BeforeMaximize",
+      "BeforeMinimize",
+      "BeforeMove",
+      "BeforeSize",
+      "Close",
+      "Deactivate",
+      "PageChange"
+    ]
+  },
+  "InspectorEvents_10_SinkHelper": {
+    "Fields": [
+      "m_ActivateDelegate",
+      "m_AttachmentSelectionChangeDelegate",
+      "m_BeforeMaximizeDelegate",
+      "m_BeforeMinimizeDelegate",
+      "m_BeforeMoveDelegate",
+      "m_BeforeSizeDelegate",
+      "m_CloseDelegate",
+      "m_DeactivateDelegate",
+      "m_dwCookie",
+      "m_PageChangeDelegate"
+    ],
+    "Methods": {}
+  },
+  "InspectorEvents_Event": {
+    "Events": [
+      "Activate",
+      "Close",
+      "Deactivate"
+    ]
+  },
+  "InspectorEvents_SinkHelper": {
+    "Fields": [
+      "m_ActivateDelegate",
+      "m_CloseDelegate",
+      "m_DeactivateDelegate",
+      "m_dwCookie"
+    ],
+    "Methods": {}
+  },
+  "InspectorsClass": {
+    "Properties": {},
+    "Methods": {},
+    "Events": [
+      "NewInspector"
+    ]
+  },
+  "InspectorsEvents": {
+    "Methods": [
+      "NewInspector"
+    ]
+  },
+  "InspectorsEvents_Event": {
+    "Events": {}
+  },
+  "InspectorsEvents_SinkHelper": {
+    "Fields": [
+      "m_dwCookie",
+      "m_NewInspectorDelegate"
+    ],
+    "Methods": {}
+  },
+  "ItemEvents": {
+    "Methods": [
+      "AttachmentAdd",
+      "AttachmentRead",
+      "BeforeAttachmentSave",
+      "BeforeCheckNames",
+      "Close",
+      "CustomAction",
+      "CustomPropertyChange",
+      "Forward",
+      "Open",
+      "PropertyChange",
+      "Read",
+      "Reply",
+      "ReplyAll",
+      "Send",
+      "Write"
+    ]
+  },
+  "ItemEvents_10": {
+    "Methods": [
+      "AfterWrite",
+      "AttachmentAdd",
+      "AttachmentRead",
+      "AttachmentRemove",
+      "BeforeAttachmentAdd",
+      "BeforeAttachmentPreview",
+      "BeforeAttachmentRead",
+      "BeforeAttachmentSave",
+      "BeforeAttachmentWriteToTempFile",
+      "BeforeAutoSave",
+      "BeforeCheckNames",
+      "BeforeDelete",
+      "BeforeRead",
+      "Close",
+      "CustomAction",
+      "CustomPropertyChange",
+      "Forward",
+      "Open",
+      "PropertyChange",
+      "Read",
+      "ReadComplete",
+      "Reply",
+      "ReplyAll",
+      "Send",
+      "Unload",
+      "Write"
+    ]
+  },
+  "ItemEvents_10_Event": {
+    "Events": [
+      "AfterWrite",
+      "AttachmentAdd",
+      "AttachmentRead",
+      "AttachmentRemove",
+      "BeforeAttachmentAdd",
+      "BeforeAttachmentPreview",
+      "BeforeAttachmentRead",
+      "BeforeAttachmentSave",
+      "BeforeAttachmentWriteToTempFile",
+      "BeforeAutoSave",
+      "BeforeCheckNames",
+      "BeforeDelete",
+      "BeforeRead",
+      "Close",
+      "CustomAction",
+      "CustomPropertyChange",
+      "Forward",
+      "Open",
+      "PropertyChange",
+      "Read",
+      "ReadComplete",
+      "Reply",
+      "ReplyAll",
+      "Send",
+      "Unload",
+      "Write"
+    ]
+  },
+  "ItemEvents_10_SinkHelper": {
+    "Fields": [
+      "m_AfterWriteDelegate",
+      "m_AttachmentAddDelegate",
+      "m_AttachmentReadDelegate",
+      "m_AttachmentRemoveDelegate",
+      "m_BeforeAttachmentAddDelegate",
+      "m_BeforeAttachmentPreviewDelegate",
+      "m_BeforeAttachmentReadDelegate",
+      "m_BeforeAttachmentSaveDelegate",
+      "m_BeforeAttachmentWriteToTempFileDelegate",
+      "m_BeforeAutoSaveDelegate",
+      "m_BeforeCheckNamesDelegate",
+      "m_BeforeDeleteDelegate",
+      "m_BeforeReadDelegate",
+      "m_CloseDelegate",
+      "m_CustomActionDelegate",
+      "m_CustomPropertyChangeDelegate",
+      "m_dwCookie",
+      "m_ForwardDelegate",
+      "m_OpenDelegate",
+      "m_PropertyChangeDelegate",
+      "m_ReadCompleteDelegate",
+      "m_ReadDelegate",
+      "m_ReplyAllDelegate",
+      "m_ReplyDelegate",
+      "m_SendDelegate",
+      "m_UnloadDelegate",
+      "m_WriteDelegate"
+    ],
+    "Methods": {}
+  },
+  "ItemEvents_Event": {
+    "Events": [
+      "AttachmentAdd",
+      "AttachmentRead",
+      "BeforeAttachmentSave",
+      "BeforeCheckNames",
+      "Close",
+      "CustomAction",
+      "CustomPropertyChange",
+      "Forward",
+      "Open",
+      "PropertyChange",
+      "Read",
+      "Reply",
+      "ReplyAll",
+      "Send",
+      "Write"
+    ]
+  },
+  "ItemEvents_SinkHelper": {
+    "Fields": [
+      "m_AttachmentAddDelegate",
+      "m_AttachmentReadDelegate",
+      "m_BeforeAttachmentSaveDelegate",
+      "m_BeforeCheckNamesDelegate",
+      "m_CloseDelegate",
+      "m_CustomActionDelegate",
+      "m_CustomPropertyChangeDelegate",
+      "m_dwCookie",
+      "m_ForwardDelegate",
+      "m_OpenDelegate",
+      "m_PropertyChangeDelegate",
+      "m_ReadDelegate",
+      "m_ReplyAllDelegate",
+      "m_ReplyDelegate",
+      "m_SendDelegate",
+      "m_WriteDelegate"
+    ],
+    "Methods": {}
+  },
+  "ItemProperties": {
+    "Properties": {},
+    "Methods": {}
+  },
+  "ItemProperty": {
+    "Properties": [
+      "Application",
+      "Class",
+      "Formula",
+      "IsUserProperty",
+      "Name",
+      "Parent",
+      "Session",
+      "Type",
+      "ValidationFormula",
+      "ValidationText",
+      "Value"
+    ],
+    "Methods": {}
+  },
+  "ItemsClass": {
+    "Properties": {},
+    "Methods": {},
+    "Events": [
+      "ItemAdd",
+      "ItemChange",
+      "ItemRemove"
+    ]
+  },
+  "ItemsEvents": {
+    "Methods": [
+      "ItemAdd",
+      "ItemChange",
+      "ItemRemove"
+    ]
+  },
+  "ItemsEvents_Event": {
+    "Events": {}
+  },
+  "ItemsEvents_SinkHelper": {
+    "Fields": [
+      "m_dwCookie",
+      "m_ItemAddDelegate",
+      "m_ItemChangeDelegate",
+      "m_ItemRemoveDelegate"
+    ],
+    "Methods": {}
+  },
+  "JournalItemClass": {
+    "Properties": {},
+    "Methods": [
+      "Close",
+      "Copy",
+      "Delete",
+      "Display",
+      "Forward",
+      "GetConversation",
+      "ItemEvents_Event_add_AttachmentAdd",
+      "ItemEvents_Event_add_AttachmentRead",
+      "ItemEvents_Event_add_BeforeAttachmentSave",
+      "ItemEvents_Event_add_BeforeCheckNames",
+      "ItemEvents_Event_add_Close",
+      "ItemEvents_Event_add_CustomAction",
+      "ItemEvents_Event_add_CustomPropertyChange",
+      "ItemEvents_Event_add_Forward",
+      "ItemEvents_Event_add_Open",
+      "ItemEvents_Event_add_PropertyChange",
+      "ItemEvents_Event_add_Read",
+      "ItemEvents_Event_add_Reply",
+      "ItemEvents_Event_add_ReplyAll",
+      "ItemEvents_Event_add_Send",
+      "ItemEvents_Event_add_Write",
+      "ItemEvents_Event_remove_AttachmentAdd",
+      "ItemEvents_Event_remove_AttachmentRead",
+      "ItemEvents_Event_remove_BeforeAttachmentSave",
+      "ItemEvents_Event_remove_BeforeCheckNames",
+      "ItemEvents_Event_remove_Close",
+      "ItemEvents_Event_remove_CustomAction",
+      "ItemEvents_Event_remove_CustomPropertyChange",
+      "ItemEvents_Event_remove_Forward",
+      "ItemEvents_Event_remove_Open",
+      "ItemEvents_Event_remove_PropertyChange",
+      "ItemEvents_Event_remove_Read",
+      "ItemEvents_Event_remove_Reply",
+      "ItemEvents_Event_remove_ReplyAll",
+      "ItemEvents_Event_remove_Send",
+      "ItemEvents_Event_remove_Write",
+      "Move",
+      "PrintOut",
+      "Reply",
+      "ReplyAll",
+      "Save",
+      "SaveAs",
+      "ShowCategoriesDialog",
+      "StartTimer",
+      "StopTimer"
+    ],
+    "Events": [
+      "AfterWrite",
+      "AttachmentAdd",
+      "AttachmentRead",
+      "AttachmentRemove",
+      "BeforeAttachmentAdd",
+      "BeforeAttachmentPreview",
+      "BeforeAttachmentRead",
+      "BeforeAttachmentSave",
+      "BeforeAttachmentWriteToTempFile",
+      "BeforeAutoSave",
+      "BeforeCheckNames",
+      "BeforeDelete",
+      "BeforeRead",
+      "CustomAction",
+      "CustomPropertyChange",
+      "ItemEvents_10_Event_Close",
+      "ItemEvents_10_Event_Forward",
+      "ItemEvents_10_Event_Reply",
+      "ItemEvents_10_Event_ReplyAll",
+      "ItemEvents_Event_AttachmentAdd",
+      "ItemEvents_Event_AttachmentRead",
+      "ItemEvents_Event_BeforeAttachmentSave",
+      "ItemEvents_Event_BeforeCheckNames",
+      "ItemEvents_Event_Close",
+      "ItemEvents_Event_CustomAction",
+      "ItemEvents_Event_CustomPropertyChange",
+      "ItemEvents_Event_Forward",
+      "ItemEvents_Event_Open",
+      "ItemEvents_Event_PropertyChange",
+      "ItemEvents_Event_Read",
+      "ItemEvents_Event_Reply",
+      "ItemEvents_Event_ReplyAll",
+      "ItemEvents_Event_Send",
+      "ItemEvents_Event_Write",
+      "Open",
+      "PropertyChange",
+      "Read",
+      "ReadComplete",
+      "Send",
+      "Unload",
+      "Write"
+    ]
+  },
+  "JournalModuleClass": {
+    "Properties": {}
+  },
+  "Link": {
+    "Properties": {}
+  },
+  "Links": {
+    "Properties": {},
+    "Methods": {}
+  },
+  "MailItemClass": {
+    "Properties": {},
+    "Methods": [
+      "AddBusinessCard",
+      "ClearConversationIndex",
+      "ClearTaskFlag",
+      "Close",
+      "Copy",
+      "Delete",
+      "Display",
+      "Forward",
+      "GetConversation",
+      "ItemEvents_Event_add_AttachmentAdd",
+      "ItemEvents_Event_add_AttachmentRead",
+      "ItemEvents_Event_add_BeforeAttachmentSave",
+      "ItemEvents_Event_add_BeforeCheckNames",
+      "ItemEvents_Event_add_Close",
+      "ItemEvents_Event_add_CustomAction",
+      "ItemEvents_Event_add_CustomPropertyChange",
+      "ItemEvents_Event_add_Forward",
+      "ItemEvents_Event_add_Open",
+      "ItemEvents_Event_add_PropertyChange",
+      "ItemEvents_Event_add_Read",
+      "ItemEvents_Event_add_Reply",
+      "ItemEvents_Event_add_ReplyAll",
+      "ItemEvents_Event_add_Send",
+      "ItemEvents_Event_add_Write",
+      "ItemEvents_Event_remove_AttachmentAdd",
+      "ItemEvents_Event_remove_AttachmentRead",
+      "ItemEvents_Event_remove_BeforeAttachmentSave",
+      "ItemEvents_Event_remove_BeforeCheckNames",
+      "ItemEvents_Event_remove_Close",
+      "ItemEvents_Event_remove_CustomAction",
+      "ItemEvents_Event_remove_CustomPropertyChange",
+      "ItemEvents_Event_remove_Forward",
+      "ItemEvents_Event_remove_Open",
+      "ItemEvents_Event_remove_PropertyChange",
+      "ItemEvents_Event_remove_Read",
+      "ItemEvents_Event_remove_Reply",
+      "ItemEvents_Event_remove_ReplyAll",
+      "ItemEvents_Event_remove_Send",
+      "ItemEvents_Event_remove_Write",
+      "MarkAsTask",
+      "Move",
+      "PrintOut",
+      "Reply",
+      "ReplyAll",
+      "Save",
+      "SaveAs",
+      "Send",
+      "ShowCategoriesDialog"
+    ],
+    "Events": [
+      "AfterWrite",
+      "AttachmentAdd",
+      "AttachmentRead",
+      "AttachmentRemove",
+      "BeforeAttachmentAdd",
+      "BeforeAttachmentPreview",
+      "BeforeAttachmentRead",
+      "BeforeAttachmentSave",
+      "BeforeAttachmentWriteToTempFile",
+      "BeforeAutoSave",
+      "BeforeCheckNames",
+      "BeforeDelete",
+      "BeforeRead",
+      "CustomAction",
+      "CustomPropertyChange",
+      "ItemEvents_10_Event_Close",
+      "ItemEvents_10_Event_Forward",
+      "ItemEvents_10_Event_Reply",
+      "ItemEvents_10_Event_ReplyAll",
+      "ItemEvents_10_Event_Send",
+      "ItemEvents_Event_AttachmentAdd",
+      "ItemEvents_Event_AttachmentRead",
+      "ItemEvents_Event_BeforeAttachmentSave",
+      "ItemEvents_Event_BeforeCheckNames",
+      "ItemEvents_Event_Close",
+      "ItemEvents_Event_CustomAction",
+      "ItemEvents_Event_CustomPropertyChange",
+      "ItemEvents_Event_Forward",
+      "ItemEvents_Event_Open",
+      "ItemEvents_Event_PropertyChange",
+      "ItemEvents_Event_Read",
+      "ItemEvents_Event_Reply",
+      "ItemEvents_Event_ReplyAll",
+      "ItemEvents_Event_Send",
+      "ItemEvents_Event_Write",
+      "Open",
+      "PropertyChange",
+      "Read",
+      "ReadComplete",
+      "Unload",
+      "Write"
+    ]
+  },
+  "MailModuleClass": {
+    "Properties": {}
+  },
+  "MAPIFolder": {
+    "Properties": {},
+    "Methods": {}
+  },
+  "MAPIFolderEvents_12": {
+    "Methods": [
+      "BeforeFolderMove",
+      "BeforeItemMove"
+    ]
+  },
+  "MAPIFolderEvents_12_Event": {
+    "Events": {}
+  },
+  "MAPIFolderEvents_12_SinkHelper": {
+    "Fields": [
+      "m_BeforeFolderMoveDelegate",
+      "m_BeforeItemMoveDelegate",
+      "m_dwCookie"
+    ],
+    "Methods": {}
+  },
+  "MarkAsTaskRuleActionClass": {
+    "Properties": {}
+  },
+  "MeetingItemClass": {
+    "Properties": {},
+    "Methods": [
+      "Close",
+      "Copy",
+      "Delete",
+      "Display",
+      "Forward",
+      "GetAssociatedAppointment",
+      "GetConversation",
+      "ItemEvents_Event_add_AttachmentAdd",
+      "ItemEvents_Event_add_AttachmentRead",
+      "ItemEvents_Event_add_BeforeAttachmentSave",
+      "ItemEvents_Event_add_BeforeCheckNames",
+      "ItemEvents_Event_add_Close",
+      "ItemEvents_Event_add_CustomAction",
+      "ItemEvents_Event_add_CustomPropertyChange",
+      "ItemEvents_Event_add_Forward",
+      "ItemEvents_Event_add_Open",
+      "ItemEvents_Event_add_PropertyChange",
+      "ItemEvents_Event_add_Read",
+      "ItemEvents_Event_add_Reply",
+      "ItemEvents_Event_add_ReplyAll",
+      "ItemEvents_Event_add_Send",
+      "ItemEvents_Event_add_Write",
+      "ItemEvents_Event_remove_AttachmentAdd",
+      "ItemEvents_Event_remove_AttachmentRead",
+      "ItemEvents_Event_remove_BeforeAttachmentSave",
+      "ItemEvents_Event_remove_BeforeCheckNames",
+      "ItemEvents_Event_remove_Close",
+      "ItemEvents_Event_remove_CustomAction",
+      "ItemEvents_Event_remove_CustomPropertyChange",
+      "ItemEvents_Event_remove_Forward",
+      "ItemEvents_Event_remove_Open",
+      "ItemEvents_Event_remove_PropertyChange",
+      "ItemEvents_Event_remove_Read",
+      "ItemEvents_Event_remove_Reply",
+      "ItemEvents_Event_remove_ReplyAll",
+      "ItemEvents_Event_remove_Send",
+      "ItemEvents_Event_remove_Write",
+      "Move",
+      "PrintOut",
+      "Reply",
+      "ReplyAll",
+      "Save",
+      "SaveAs",
+      "Send",
+      "ShowCategoriesDialog"
+    ],
+    "Events": {}
+  },
+  "MobileItemClass": {
+    "Properties": {},
+    "Methods": [
+      "Close",
+      "Copy",
+      "Delete",
+      "Display",
+      "Forward",
+      "ItemEvents_Event_add_AttachmentAdd",
+      "ItemEvents_Event_add_AttachmentRead",
+      "ItemEvents_Event_add_BeforeAttachmentSave",
+      "ItemEvents_Event_add_BeforeCheckNames",
+      "ItemEvents_Event_add_Close",
+      "ItemEvents_Event_add_CustomAction",
+      "ItemEvents_Event_add_CustomPropertyChange",
+      "ItemEvents_Event_add_Forward",
+      "ItemEvents_Event_add_Open",
+      "ItemEvents_Event_add_PropertyChange",
+      "ItemEvents_Event_add_Read",
+      "ItemEvents_Event_add_Reply",
+      "ItemEvents_Event_add_ReplyAll",
+      "ItemEvents_Event_add_Send",
+      "ItemEvents_Event_add_Write",
+      "ItemEvents_Event_remove_AttachmentAdd",
+      "ItemEvents_Event_remove_AttachmentRead",
+      "ItemEvents_Event_remove_BeforeAttachmentSave",
+      "ItemEvents_Event_remove_BeforeCheckNames",
+      "ItemEvents_Event_remove_Close",
+      "ItemEvents_Event_remove_CustomAction",
+      "ItemEvents_Event_remove_CustomPropertyChange",
+      "ItemEvents_Event_remove_Forward",
+      "ItemEvents_Event_remove_Open",
+      "ItemEvents_Event_remove_PropertyChange",
+      "ItemEvents_Event_remove_Read",
+      "ItemEvents_Event_remove_Reply",
+      "ItemEvents_Event_remove_ReplyAll",
+      "ItemEvents_Event_remove_Send",
+      "ItemEvents_Event_remove_Write",
+      "Move",
+      "PrintOut",
+      "Reply",
+      "ReplyAll",
+      "Save",
+      "SaveAs",
+      "Send"
+    ],
+    "Events": {}
+  },
+  "MoveOrCopyRuleActionClass": {
+    "Properties": {}
+  },
+  "NameSpaceClass": {
+    "Properties": {},
+    "Methods": {},
+    "Events": [
+      "AutoDiscoverComplete",
+      "OptionsPagesAdd"
+    ]
+  },
+  "NameSpaceEvents": {
+    "Methods": [
+      "AutoDiscoverComplete",
+      "OptionsPagesAdd"
+    ]
+  },
+  "NameSpaceEvents_Event": {
+    "Events": {}
+  },
+  "NameSpaceEvents_SinkHelper": {
+    "Fields": [
+      "m_AutoDiscoverCompleteDelegate",
+      "m_dwCookie",
+      "m_OptionsPagesAddDelegate"
+    ],
+    "Methods": {}
+  },
+  "NavigationFolderClass": {
+    "Properties": {}
+  },
+  "NavigationFoldersClass": {
+    "Properties": {},
+    "Methods": {}
+  },
+  "NavigationGroupClass": {
+    "Properties": {}
+  },
+  "NavigationGroupsClass": {
+    "Properties": {},
+    "Methods": {},
+    "Events": [
+      "NavigationFolderAdd",
+      "NavigationFolderRemove",
+      "SelectedChange"
+    ]
+  },
+  "NavigationGroupsEvents_12": {
+    "Methods": [
+      "NavigationFolderAdd",
+      "NavigationFolderRemove",
+      "SelectedChange"
+    ]
+  },
+  "NavigationGroupsEvents_12_Event": {
+    "Events": {}
+  },
+  "NavigationGroupsEvents_12_SinkHelper": {
+    "Fields": [
+      "m_dwCookie",
+      "m_NavigationFolderAddDelegate",
+      "m_NavigationFolderRemoveDelegate",
+      "m_SelectedChangeDelegate"
+    ],
+    "Methods": {}
+  },
+  "NavigationModuleClass": {
+    "Properties": {}
+  },
+  "NavigationModulesClass": {
+    "Properties": {},
+    "Methods": {}
+  },
+  "NavigationPaneClass": {
+    "Properties": {},
+    "Events": [
+      "ModuleSwitch"
+    ]
+  },
+  "NavigationPaneEvents_12": {
+    "Methods": [
+      "ModuleSwitch"
+    ]
+  },
+  "NavigationPaneEvents_12_Event": {
+    "Events": {}
+  },
+  "NavigationPaneEvents_12_SinkHelper": {
+    "Fields": [
+      "m_dwCookie",
+      "m_ModuleSwitchDelegate"
+    ],
+    "Methods": {}
+  },
+  "NewItemAlertRuleActionClass": {
+    "Properties": {}
+  },
+  "NoteItemClass": {
+    "Properties": {},
+    "Methods": {}
+  },
+  "NotesModuleClass": {
+    "Properties": {}
+  },
+  "OlkBusinessCardControlClass": {
+    "Constructors": {},
+    "Properties": {},
+    "Events": [
+      "Click",
+      "DoubleClick",
+      "MouseDown",
+      "MouseMove",
+      "MouseUp"
+    ]
+  },
+  "OlkBusinessCardControlEvents": {
+    "Methods": [
+      "Click",
+      "DoubleClick",
+      "MouseDown",
+      "MouseMove",
+      "MouseUp"
+    ]
+  },
+  "OlkBusinessCardControlEvents_Event": {
+    "Events": {}
+  },
+  "OlkBusinessCardControlEvents_SinkHelper": {
+    "Fields": [
+      "m_ClickDelegate",
+      "m_DoubleClickDelegate",
+      "m_dwCookie",
+      "m_MouseDownDelegate",
+      "m_MouseMoveDelegate",
+      "m_MouseUpDelegate"
+    ],
+    "Methods": {}
+  },
+  "OlkCategoryClass": {
+    "Constructors": {},
+    "Properties": {},
+    "Events": [
+      "Change",
+      "Click",
+      "DoubleClick",
+      "Enter",
+      "Exit",
+      "KeyDown",
+      "KeyPress",
+      "KeyUp",
+      "MouseDown",
+      "MouseMove",
+      "MouseUp"
+    ]
+  },
+  "OlkCategoryEvents": {
+    "Methods": [
+      "Change",
+      "Click",
+      "DoubleClick",
+      "Enter",
+      "Exit",
+      "KeyDown",
+      "KeyPress",
+      "KeyUp",
+      "MouseDown",
+      "MouseMove",
+      "MouseUp"
+    ]
+  },
+  "OlkCategoryEvents_Event": {
+    "Events": {}
+  },
+  "OlkCategoryEvents_SinkHelper": {
+    "Fields": [
+      "m_ChangeDelegate",
+      "m_ClickDelegate",
+      "m_DoubleClickDelegate",
+      "m_dwCookie",
+      "m_EnterDelegate",
+      "m_ExitDelegate",
+      "m_KeyDownDelegate",
+      "m_KeyPressDelegate",
+      "m_KeyUpDelegate",
+      "m_MouseDownDelegate",
+      "m_MouseMoveDelegate",
+      "m_MouseUpDelegate"
+    ],
+    "Methods": {}
+  },
+  "OlkCheckBoxClass": {
+    "Constructors": {},
+    "Properties": {},
+    "Events": [
+      "AfterUpdate",
+      "BeforeUpdate",
+      "Change",
+      "Click",
+      "DoubleClick",
+      "Enter",
+      "Exit",
+      "KeyDown",
+      "KeyPress",
+      "KeyUp",
+      "MouseDown",
+      "MouseMove",
+      "MouseUp"
+    ]
+  },
+  "OlkCheckBoxEvents": {
+    "Methods": [
+      "AfterUpdate",
+      "BeforeUpdate",
+      "Change",
+      "Click",
+      "DoubleClick",
+      "Enter",
+      "Exit",
+      "KeyDown",
+      "KeyPress",
+      "KeyUp",
+      "MouseDown",
+      "MouseMove",
+      "MouseUp"
+    ]
+  },
+  "OlkCheckBoxEvents_Event": {
+    "Events": {}
+  },
+  "OlkCheckBoxEvents_SinkHelper": {
+    "Fields": [
+      "m_AfterUpdateDelegate",
+      "m_BeforeUpdateDelegate",
+      "m_ChangeDelegate",
+      "m_ClickDelegate",
+      "m_DoubleClickDelegate",
+      "m_dwCookie",
+      "m_EnterDelegate",
+      "m_ExitDelegate",
+      "m_KeyDownDelegate",
+      "m_KeyPressDelegate",
+      "m_KeyUpDelegate",
+      "m_MouseDownDelegate",
+      "m_MouseMoveDelegate",
+      "m_MouseUpDelegate"
+    ],
+    "Methods": {}
+  },
+  "OlkComboBoxClass": {
+    "Constructors": {},
+    "Properties": {},
+    "Methods": {},
+    "Events": [
+      "AfterUpdate",
+      "BeforeUpdate",
+      "Change",
+      "Click",
+      "DoubleClick",
+      "DropButtonClick",
+      "Enter",
+      "Exit",
+      "KeyDown",
+      "KeyPress",
+      "KeyUp",
+      "MouseDown",
+      "MouseMove",
+      "MouseUp"
+    ]
+  },
+  "OlkComboBoxEvents": {
+    "Methods": [
+      "AfterUpdate",
+      "BeforeUpdate",
+      "Change",
+      "Click",
+      "DoubleClick",
+      "DropButtonClick",
+      "Enter",
+      "Exit",
+      "KeyDown",
+      "KeyPress",
+      "KeyUp",
+      "MouseDown",
+      "MouseMove",
+      "MouseUp"
+    ]
+  },
+  "OlkComboBoxEvents_Event": {
+    "Events": {}
+  },
+  "OlkComboBoxEvents_SinkHelper": {
+    "Fields": [
+      "m_AfterUpdateDelegate",
+      "m_BeforeUpdateDelegate",
+      "m_ChangeDelegate",
+      "m_ClickDelegate",
+      "m_DoubleClickDelegate",
+      "m_DropButtonClickDelegate",
+      "m_dwCookie",
+      "m_EnterDelegate",
+      "m_ExitDelegate",
+      "m_KeyDownDelegate",
+      "m_KeyPressDelegate",
+      "m_KeyUpDelegate",
+      "m_MouseDownDelegate",
+      "m_MouseMoveDelegate",
+      "m_MouseUpDelegate"
+    ],
+    "Methods": {}
+  },
+  "OlkCommandButtonClass": {
+    "Constructors": {},
+    "Properties": {},
+    "Events": [
+      "AfterUpdate",
+      "BeforeUpdate",
+      "Click",
+      "DoubleClick",
+      "Enter",
+      "Exit",
+      "KeyDown",
+      "KeyPress",
+      "KeyUp",
+      "MouseDown",
+      "MouseMove",
+      "MouseUp"
+    ]
+  },
+  "OlkCommandButtonEvents": {
+    "Methods": [
+      "AfterUpdate",
+      "BeforeUpdate",
+      "Click",
+      "DoubleClick",
+      "Enter",
+      "Exit",
+      "KeyDown",
+      "KeyPress",
+      "KeyUp",
+      "MouseDown",
+      "MouseMove",
+      "MouseUp"
+    ]
+  },
+  "OlkCommandButtonEvents_Event": {
+    "Events": {}
+  },
+  "OlkCommandButtonEvents_SinkHelper": {
+    "Fields": [
+      "m_AfterUpdateDelegate",
+      "m_BeforeUpdateDelegate",
+      "m_ClickDelegate",
+      "m_DoubleClickDelegate",
+      "m_dwCookie",
+      "m_EnterDelegate",
+      "m_ExitDelegate",
+      "m_KeyDownDelegate",
+      "m_KeyPressDelegate",
+      "m_KeyUpDelegate",
+      "m_MouseDownDelegate",
+      "m_MouseMoveDelegate",
+      "m_MouseUpDelegate"
+    ],
+    "Methods": {}
+  },
+  "OlkContactPhotoClass": {
+    "Constructors": {},
+    "Properties": {},
+    "Events": {}
+  },
+  "OlkContactPhotoEvents": {
+    "Methods": {}
+  },
+  "OlkContactPhotoEvents_Event": {
+    "Events": {}
+  },
+  "OlkContactPhotoEvents_SinkHelper": {
+    "Fields": {},
+    "Methods": {}
+  },
+  "OlkControl": {
+    "Properties": [
+      "ControlProperty",
+      "EnableAutoLayout",
+      "Format",
+      "HorizontalLayout",
+      "ItemProperty",
+      "MinimumHeight",
+      "MinimumWidth",
+      "PossibleValues",
+      "VerticalLayout"
+    ]
+  },
+  "OlkDateControlClass": {
+    "Constructors": {},
+    "Properties": {},
+    "Methods": {},
+    "Events": {}
+  },
+  "OlkDateControlEvents": {
+    "Methods": {}
+  },
+  "OlkDateControlEvents_Event": {
+    "Events": {}
+  },
+  "OlkDateControlEvents_SinkHelper": {
+    "Fields": {},
+    "Methods": {}
+  },
+  "OlkFrameHeaderClass": {
+    "Constructors": {},
+    "Properties": {}
+  },
+  "OlkFrameHeaderEvents_SinkHelper": {
+    "Fields": {}
+  },
+  "OlkInfoBarClass": {
+    "Constructors": {},
+    "Properties": {},
+    "Events": {}
+  },
+  "OlkInfoBarEvents": {
+    "Methods": {}
+  },
+  "OlkInfoBarEvents_Event": {
+    "Events": {}
+  },
+  "OlkInfoBarEvents_SinkHelper": {
+    "Fields": {},
+    "Methods": {}
+  },
+  "OlkLabelClass": {
+    "Constructors": {},
+    "Properties": {},
+    "Events": {}
+  },
+  "OlkLabelEvents": {
+    "Methods": {}
+  },
+  "OlkLabelEvents_Event": {
+    "Events": {}
+  },
+  "OlkLabelEvents_SinkHelper": {
+    "Fields": {},
+    "Methods": {}
+  },
+  "OlkListBoxClass": {
+    "Constructors": {},
+    "Properties": {},
+    "Methods": {},
+    "Events": {}
+  },
+  "OlkListBoxEvents": {
+    "Methods": {}
+  },
+  "OlkListBoxEvents_Event": {
+    "Events": {}
+  },
+  "OlkListBoxEvents_SinkHelper": {
+    "Fields": {},
+    "Methods": {}
+  },
+  "OlkOptionButtonClass": {
+    "Constructors": {},
+    "Properties": {},
+    "Events": {}
+  },
+  "OlkOptionButtonEvents": {
+    "Methods": {}
+  },
+  "OlkOptionButtonEvents_Event": {
+    "Events": {}
+  },
+  "OlkOptionButtonEvents_SinkHelper": {
+    "Fields": {},
+    "Methods": {}
+  },
+  "OlkPageControlClass": {
+    "Constructors": {},
+    "Properties": {}
+  },
+  "OlkPageControlEvents_SinkHelper": {
+    "Fields": {}
+  },
+  "OlkSenderPhotoClass": {
+    "Constructors": {},
+    "Properties": {},
+    "Events": [
+      "Change",
+      "Click",
+      "DoubleClick",
+      "MouseDown",
+      "MouseMove",
+      "MouseUp"
+    ]
+  },
+  "OlkSenderPhotoEvents": {
+    "Methods": [
+      "Change",
+      "Click",
+      "DoubleClick",
+      "MouseDown",
+      "MouseMove",
+      "MouseUp"
+    ]
+  },
+  "OlkSenderPhotoEvents_Event": {
+    "Events": {}
+  },
+  "OlkSenderPhotoEvents_SinkHelper": {
+    "Fields": [
+      "m_ChangeDelegate",
+      "m_ClickDelegate",
+      "m_DoubleClickDelegate",
+      "m_dwCookie",
+      "m_MouseDownDelegate",
+      "m_MouseMoveDelegate",
+      "m_MouseUpDelegate"
+    ],
+    "Methods": {}
+  },
+  "OlkTextBoxClass": {
+    "Constructors": {},
+    "Properties": {},
+    "Methods": {},
+    "Events": {}
+  },
+  "OlkTextBoxEvents": {
+    "Methods": {}
+  },
+  "OlkTextBoxEvents_Event": {
+    "Events": {}
+  },
+  "OlkTextBoxEvents_SinkHelper": {
+    "Fields": {},
+    "Methods": {}
+  },
+  "OlkTimeControlClass": {
+    "Constructors": {},
+    "Properties": {},
+    "Methods": {},
+    "Events": {}
+  },
+  "OlkTimeControlEvents": {
+    "Methods": {}
+  },
+  "OlkTimeControlEvents_Event": {
+    "Events": {}
+  },
+  "OlkTimeControlEvents_SinkHelper": {
+    "Fields": {},
+    "Methods": {}
+  },
+  "OlkTimeZoneControlClass": {
+    "Constructors": {},
+    "Properties": {},
+    "Methods": {},
+    "Events": {}
+  },
+  "OlkTimeZoneControlEvents": {
+    "Methods": {}
+  },
+  "OlkTimeZoneControlEvents_Event": {
+    "Events": {}
+  },
+  "OlkTimeZoneControlEvents_SinkHelper": {
+    "Fields": {},
+    "Methods": {}
+  },
+  "OrderFieldClass": {
+    "Properties": {}
+  },
+  "OrderFieldsClass": {
+    "Properties": {},
+    "Methods": {}
+  },
+  "OutlookBarGroup": {
+    "Properties": [
+      "Application",
+      "Class",
+      "Name",
+      "Parent",
+      "Session",
+      "Shortcuts",
+      "ViewType"
+    ]
+  },
+  "OutlookBarGroupsClass": {
+    "Properties": {},
+    "Methods": {},
+    "Events": [
+      "BeforeGroupAdd",
+      "BeforeGroupRemove",
+      "GroupAdd"
+    ]
+  },
+  "OutlookBarGroupsEvents": {
+    "Methods": [
+      "BeforeGroupAdd",
+      "BeforeGroupRemove",
+      "GroupAdd"
+    ]
+  },
+  "OutlookBarGroupsEvents_Event": {
+    "Events": {}
+  },
+  "OutlookBarGroupsEvents_SinkHelper": {
+    "Fields": [
+      "m_BeforeGroupAddDelegate",
+      "m_BeforeGroupRemoveDelegate",
+      "m_dwCookie",
+      "m_GroupAddDelegate"
+    ],
+    "Methods": {}
+  },
+  "OutlookBarPaneClass": {
+    "Properties": {},
+    "Events": [
+      "BeforeGroupSwitch",
+      "BeforeNavigate"
+    ]
+  },
+  "OutlookBarPaneEvents": {
+    "Methods": [
+      "BeforeGroupSwitch",
+      "BeforeNavigate"
+    ]
+  },
+  "OutlookBarPaneEvents_Event": {
+    "Events": {}
+  },
+  "OutlookBarPaneEvents_SinkHelper": {
+    "Fields": [
+      "m_BeforeGroupSwitchDelegate",
+      "m_BeforeNavigateDelegate",
+      "m_dwCookie"
+    ],
+    "Methods": {}
+  },
+  "OutlookBarShortcut": {
+    "Properties": [
+      "Application",
+      "Class",
+      "Name",
+      "Parent",
+      "Session",
+      "Target"
+    ],
+    "Methods": [
+      "SetIcon"
+    ]
+  },
+  "OutlookBarShortcutsClass": {
+    "Properties": {},
+    "Methods": {},
+    "Events": [
+      "BeforeShortcutAdd",
+      "BeforeShortcutRemove",
+      "ShortcutAdd"
+    ]
+  },
+  "OutlookBarShortcutsEvents": {
+    "Methods": [
+      "BeforeShortcutAdd",
+      "BeforeShortcutRemove",
+      "ShortcutAdd"
+    ]
+  },
+  "OutlookBarShortcutsEvents_Event": {
+    "Events": {}
+  },
+  "OutlookBarShortcutsEvents_SinkHelper": {
+    "Fields": [
+      "m_BeforeShortcutAddDelegate",
+      "m_BeforeShortcutRemoveDelegate",
+      "m_dwCookie",
+      "m_ShortcutAddDelegate"
+    ],
+    "Methods": {}
+  },
+  "OutlookBarStorage": {
+    "Properties": [
+      "Application",
+      "Class",
+      "Groups",
+      "Parent",
+      "Session"
+    ]
+  },
+  "Pages": {
+    "Properties": {},
+    "Methods": {}
+  },
+  "Panes": {
+    "Properties": {}
+  },
+  "PeopleViewClass": {
+    "Properties": {},
+    "Methods": {}
+  },
+  "PlaySoundRuleActionClass": {
+    "Properties": {}
+  },
+  "PostItemClass": {
+    "Properties": {},
+    "Methods": [
+      "ClearConversationIndex",
+      "ClearTaskFlag",
+      "Close",
+      "Copy",
+      "Delete",
+      "Display",
+      "Forward",
+      "GetConversation",
+      "ItemEvents_Event_add_AttachmentAdd",
+      "ItemEvents_Event_add_AttachmentRead",
+      "ItemEvents_Event_add_BeforeAttachmentSave",
+      "ItemEvents_Event_add_BeforeCheckNames",
+      "ItemEvents_Event_add_Close",
+      "ItemEvents_Event_add_CustomAction",
+      "ItemEvents_Event_add_CustomPropertyChange",
+      "ItemEvents_Event_add_Forward",
+      "ItemEvents_Event_add_Open",
+      "ItemEvents_Event_add_PropertyChange",
+      "ItemEvents_Event_add_Read",
+      "ItemEvents_Event_add_Reply",
+      "ItemEvents_Event_add_ReplyAll",
+      "ItemEvents_Event_add_Send",
+      "ItemEvents_Event_add_Write",
+      "ItemEvents_Event_remove_AttachmentAdd",
+      "ItemEvents_Event_remove_AttachmentRead",
+      "ItemEvents_Event_remove_BeforeAttachmentSave",
+      "ItemEvents_Event_remove_BeforeCheckNames",
+      "ItemEvents_Event_remove_Close",
+      "ItemEvents_Event_remove_CustomAction",
+      "ItemEvents_Event_remove_CustomPropertyChange",
+      "ItemEvents_Event_remove_Forward",
+      "ItemEvents_Event_remove_Open",
+      "ItemEvents_Event_remove_PropertyChange",
+      "ItemEvents_Event_remove_Read",
+      "ItemEvents_Event_remove_Reply",
+      "ItemEvents_Event_remove_ReplyAll",
+      "ItemEvents_Event_remove_Send",
+      "ItemEvents_Event_remove_Write",
+      "MarkAsTask",
+      "Move",
+      "Post",
+      "PrintOut",
+      "Reply",
+      "Save",
+      "SaveAs",
+      "SetACLs",
+      "ShowCategoriesDialog"
+    ],
+    "Events": [
+      "AfterWrite",
+      "AttachmentAdd",
+      "AttachmentRead",
+      "AttachmentRemove",
+      "BeforeAttachmentAdd",
+      "BeforeAttachmentPreview",
+      "BeforeAttachmentRead",
+      "BeforeAttachmentSave",
+      "BeforeAttachmentWriteToTempFile",
+      "BeforeAutoSave",
+      "BeforeCheckNames",
+      "BeforeDelete",
+      "BeforeRead",
+      "CustomAction",
+      "CustomPropertyChange",
+      "ItemEvents_10_Event_Close",
+      "ItemEvents_10_Event_Forward",
+      "ItemEvents_10_Event_Reply",
+      "ItemEvents_Event_AttachmentAdd",
+      "ItemEvents_Event_AttachmentRead",
+      "ItemEvents_Event_BeforeAttachmentSave",
+      "ItemEvents_Event_BeforeCheckNames",
+      "ItemEvents_Event_Close",
+      "ItemEvents_Event_CustomAction",
+      "ItemEvents_Event_CustomPropertyChange",
+      "ItemEvents_Event_Forward",
+      "ItemEvents_Event_Open",
+      "ItemEvents_Event_PropertyChange",
+      "ItemEvents_Event_Read",
+      "ItemEvents_Event_Reply",
+      "ItemEvents_Event_ReplyAll",
+      "ItemEvents_Event_Send",
+      "ItemEvents_Event_Write",
+      "Open",
+      "PropertyChange",
+      "Read",
+      "ReadComplete",
+      "ReplyAll",
+      "Send",
+      "Unload",
+      "Write"
+    ]
+  },
+  "PropertyAccessorClass": {
+    "Properties": {},
+    "Methods": {}
+  },
+  "PropertyPage": {
+    "Properties": [
+      "Dirty"
+    ],
+    "Methods": [
+      "Apply",
+      "GetPageInfo"
+    ]
+  },
+  "PropertyPages": {
+    "Properties": {},
+    "Methods": {}
+  },
+  "PropertyPageSite": {
+    "Properties": {},
+    "Methods": [
+      "OnStatusChange"
+    ]
+  },
+  "Recipient": {
+    "Properties": [
+      "Address",
+      "AddressEntry",
+      "Application",
+      "AutoResponse",
+      "Class",
+      "DisplayType",
+      "EntryID",
+      "Index",
+      "MeetingResponseStatus",
+      "Name",
+      "Parent",
+      "PropertyAccessor",
+      "Resolved",
+      "Sendable",
+      "Session",
+      "TrackingStatus",
+      "TrackingStatusTime",
+      "Type"
+    ],
+    "Methods": [
+      "Delete",
+      "FreeBusy",
+      "Resolve"
+    ]
+  },
+  "Recipients": {
+    "Properties": {},
+    "Methods": [
+      "Add",
+      "Remove",
+      "ResolveAll"
+    ]
+  },
+  "RecurrencePattern": {
+    "Properties": [
+      "Application",
+      "Class",
+      "DayOfMonth",
+      "DayOfWeekMask",
+      "Duration",
+      "EndTime",
+      "Exceptions",
+      "Instance",
+      "Interval",
+      "MonthOfYear",
+      "NoEndDate",
+      "Occurrences",
+      "Parent",
+      "PatternEndDate",
+      "PatternStartDate",
+      "RecurrenceType",
+      "Regenerate",
+      "Session",
+      "StartTime"
+    ],
+    "Methods": [
+      "GetOccurrence"
+    ]
+  },
+  "ReminderClass": {
+    "Properties": {},
+    "Methods": {}
+  },
+  "ReminderCollectionEvents": {
+    "Methods": [
+      "BeforeReminderShow",
+      "ReminderAdd",
+      "ReminderChange",
+      "ReminderFire",
+      "ReminderRemove",
+      "Snooze"
+    ]
+  },
+  "ReminderCollectionEvents_Event": {
+    "Events": [
+      "BeforeReminderShow",
+      "ReminderAdd",
+      "ReminderChange",
+      "ReminderFire",
+      "ReminderRemove",
+      "Snooze"
+    ]
+  },
+  "ReminderCollectionEvents_SinkHelper": {
+    "Fields": [
+      "m_BeforeReminderShowDelegate",
+      "m_dwCookie",
+      "m_ReminderAddDelegate",
+      "m_ReminderChangeDelegate",
+      "m_ReminderFireDelegate",
+      "m_ReminderRemoveDelegate",
+      "m_SnoozeDelegate"
+    ],
+    "Methods": {}
+  },
+  "RemindersClass": {
+    "Properties": {},
+    "Methods": {},
+    "Events": {}
+  },
+  "RemoteItemClass": {
+    "Properties": {},
+    "Methods": [
+      "Close",
+      "Copy",
+      "Delete",
+      "Display",
+      "GetConversation",
+      "ItemEvents_Event_add_AttachmentAdd",
+      "ItemEvents_Event_add_AttachmentRead",
+      "ItemEvents_Event_add_BeforeAttachmentSave",
+      "ItemEvents_Event_add_BeforeCheckNames",
+      "ItemEvents_Event_add_Close",
+      "ItemEvents_Event_add_CustomAction",
+      "ItemEvents_Event_add_CustomPropertyChange",
+      "ItemEvents_Event_add_Forward",
+      "ItemEvents_Event_add_Open",
+      "ItemEvents_Event_add_PropertyChange",
+      "ItemEvents_Event_add_Read",
+      "ItemEvents_Event_add_Reply",
+      "ItemEvents_Event_add_ReplyAll",
+      "ItemEvents_Event_add_Send",
+      "ItemEvents_Event_add_Write",
+      "ItemEvents_Event_remove_AttachmentAdd",
+      "ItemEvents_Event_remove_AttachmentRead",
+      "ItemEvents_Event_remove_BeforeAttachmentSave",
+      "ItemEvents_Event_remove_BeforeCheckNames",
+      "ItemEvents_Event_remove_Close",
+      "ItemEvents_Event_remove_CustomAction",
+      "ItemEvents_Event_remove_CustomPropertyChange",
+      "ItemEvents_Event_remove_Forward",
+      "ItemEvents_Event_remove_Open",
+      "ItemEvents_Event_remove_PropertyChange",
+      "ItemEvents_Event_remove_Read",
+      "ItemEvents_Event_remove_Reply",
+      "ItemEvents_Event_remove_ReplyAll",
+      "ItemEvents_Event_remove_Send",
+      "ItemEvents_Event_remove_Write",
+      "Move",
+      "PrintOut",
+      "Save",
+      "SaveAs",
+      "ShowCategoriesDialog"
+    ],
+    "Events": {}
+  },
+  "ReportItemClass": {
+    "Properties": {},
+    "Methods": {},
+    "Events": {}
+  },
+  "ResultsClass": {
+    "Properties": {},
+    "Methods": {},
+    "Events": {}
+  },
+  "ResultsEvents": {
+    "Methods": {}
+  },
+  "ResultsEvents_Event": {
+    "Events": {}
+  },
+  "ResultsEvents_SinkHelper": {
+    "Fields": {},
+    "Methods": {}
+  },
+  "RowClass": {
+    "Properties": {},
+    "Methods": {}
+  },
+  "RuleActionClass": {
+    "Properties": {}
+  },
+  "RuleActionsClass": {
+    "Properties": {}
+  },
+  "RuleClass": {
+    "Properties": {},
+    "Methods": {}
+  },
+  "RuleConditionClass": {
+    "Properties": {}
+  },
+  "RuleConditionsClass": {
+    "Properties": {}
+  },
+  "RulesClass": {
+    "Properties": {},
+    "Methods": {}
+  },
+  "Search": {
+    "Properties": [
+      "Application",
+      "Class",
+      "Filter",
+      "IsSynchronous",
+      "Parent",
+      "Results",
+      "Scope",
+      "SearchSubFolders",
+      "Session",
+      "Tag"
+    ],
+    "Methods": [
+      "GetTable",
+      "Save",
+      "Stop"
+    ]
+  },
+  "Selection": {
+    "Properties": {},
+    "Methods": {}
+  },
+  "SelectNamesDialogClass": {
+    "Properties": {},
+    "Methods": {}
+  },
+  "SenderInAddressListRuleConditionClass": {
+    "Properties": {}
+  },
+  "SendRuleActionClass": {
+    "Properties": {}
+  },
+  "SharingItemClass": {
+    "Properties": {},
+    "Methods": [
+      "AddBusinessCard",
+      "Allow",
+      "ClearConversationIndex",
+      "ClearTaskFlag",
+      "Close",
+      "Copy",
+      "Delete",
+      "Deny",
+      "Display",
+      "Forward",
+      "GetConversation",
+      "ItemEvents_Event_add_AttachmentAdd",
+      "ItemEvents_Event_add_AttachmentRead",
+      "ItemEvents_Event_add_BeforeAttachmentSave",
+      "ItemEvents_Event_add_BeforeCheckNames",
+      "ItemEvents_Event_add_Close",
+      "ItemEvents_Event_add_CustomAction",
+      "ItemEvents_Event_add_CustomPropertyChange",
+      "ItemEvents_Event_add_Forward",
+      "ItemEvents_Event_add_Open",
+      "ItemEvents_Event_add_PropertyChange",
+      "ItemEvents_Event_add_Read",
+      "ItemEvents_Event_add_Reply",
+      "ItemEvents_Event_add_ReplyAll",
+      "ItemEvents_Event_add_Send",
+      "ItemEvents_Event_add_Write",
+      "ItemEvents_Event_remove_AttachmentAdd",
+      "ItemEvents_Event_remove_AttachmentRead",
+      "ItemEvents_Event_remove_BeforeAttachmentSave",
+      "ItemEvents_Event_remove_BeforeCheckNames",
+      "ItemEvents_Event_remove_Close",
+      "ItemEvents_Event_remove_CustomAction",
+      "ItemEvents_Event_remove_CustomPropertyChange",
+      "ItemEvents_Event_remove_Forward",
+      "ItemEvents_Event_remove_Open",
+      "ItemEvents_Event_remove_PropertyChange",
+      "ItemEvents_Event_remove_Read",
+      "ItemEvents_Event_remove_Reply",
+      "ItemEvents_Event_remove_ReplyAll",
+      "ItemEvents_Event_remove_Send",
+      "ItemEvents_Event_remove_Write",
+      "MarkAsTask",
+      "Move",
+      "OpenSharedFolder",
+      "PrintOut",
+      "Reply",
+      "ReplyAll",
+      "Save",
+      "SaveAs",
+      "Send",
+      "ShowCategoriesDialog"
+    ],
+    "Events": {}
+  },
+  "SimpleItemsClass": {
+    "Properties": {}
+  },
+  "SolutionsModuleClass": {
+    "Properties": {},
+    "Methods": {}
+  },
+  "StorageItemClass": {
+    "Properties": {},
+    "Methods": {}
+  },
+  "StoreClass": {
+    "Properties": {},
+    "Methods": {}
+  },
+  "StoresClass": {
+    "Properties": {},
+    "Events": [
+      "BeforeStoreRemove",
+      "StoreAdd"
+    ]
+  },
+  "StoresEvents_12": {
+    "Methods": [
+      "BeforeStoreRemove",
+      "StoreAdd"
+    ]
+  },
+  "StoresEvents_12_Event": {
+    "Events": {}
+  },
+  "StoresEvents_12_SinkHelper": {
+    "Fields": [
+      "m_BeforeStoreRemoveDelegate",
+      "m_dwCookie",
+      "m_StoreAddDelegate"
+    ],
+    "Methods": {}
+  },
+  "SyncObjectClass": {
+    "Properties": {},
+    "Methods": {},
+    "Events": [
+      "OnError",
+      "Progress",
+      "SyncEnd",
+      "SyncStart"
+    ]
+  },
+  "SyncObjectEvents": {
+    "Methods": [
+      "OnError",
+      "Progress",
+      "SyncEnd",
+      "SyncStart"
+    ]
+  },
+  "SyncObjectEvents_Event": {
+    "Events": {}
+  },
+  "SyncObjectEvents_SinkHelper": {
+    "Fields": [
+      "m_dwCookie",
+      "m_OnErrorDelegate",
+      "m_ProgressDelegate",
+      "m_SyncEndDelegate",
+      "m_SyncStartDelegate"
+    ],
+    "Methods": {}
+  },
+  "SyncObjects": {
+    "Properties": [
+      "AppFolders",
+      "Application",
+      "Class",
+      "Count",
+      "Item[]",
+      "Parent",
+      "Session"
+    ]
+  },
+  "TableClass": {
+    "Properties": {},
+    "Methods": {}
+  },
+  "TableViewClass": {
+    "Properties": {},
+    "Methods": {}
+  },
+  "TaskItemClass": {
+    "Properties": {},
+    "Methods": [
+      "Assign",
+      "CancelResponseState",
+      "ClearRecurrencePattern",
+      "Close",
+      "Copy",
+      "Delete",
+      "Display",
+      "GetConversation",
+      "GetRecurrencePattern",
+      "ItemEvents_Event_add_AttachmentAdd",
+      "ItemEvents_Event_add_AttachmentRead",
+      "ItemEvents_Event_add_BeforeAttachmentSave",
+      "ItemEvents_Event_add_BeforeCheckNames",
+      "ItemEvents_Event_add_Close",
+      "ItemEvents_Event_add_CustomAction",
+      "ItemEvents_Event_add_CustomPropertyChange",
+      "ItemEvents_Event_add_Forward",
+      "ItemEvents_Event_add_Open",
+      "ItemEvents_Event_add_PropertyChange",
+      "ItemEvents_Event_add_Read",
+      "ItemEvents_Event_add_Reply",
+      "ItemEvents_Event_add_ReplyAll",
+      "ItemEvents_Event_add_Send",
+      "ItemEvents_Event_add_Write",
+      "ItemEvents_Event_remove_AttachmentAdd",
+      "ItemEvents_Event_remove_AttachmentRead",
+      "ItemEvents_Event_remove_BeforeAttachmentSave",
+      "ItemEvents_Event_remove_BeforeCheckNames",
+      "ItemEvents_Event_remove_Close",
+      "ItemEvents_Event_remove_CustomAction",
+      "ItemEvents_Event_remove_CustomPropertyChange",
+      "ItemEvents_Event_remove_Forward",
+      "ItemEvents_Event_remove_Open",
+      "ItemEvents_Event_remove_PropertyChange",
+      "ItemEvents_Event_remove_Read",
+      "ItemEvents_Event_remove_Reply",
+      "ItemEvents_Event_remove_ReplyAll",
+      "ItemEvents_Event_remove_Send",
+      "ItemEvents_Event_remove_Write",
+      "MarkComplete",
+      "Move",
+      "PrintOut",
+      "Respond",
+      "Save",
+      "SaveAs",
+      "Send",
+      "ShowCategoriesDialog",
+      "SkipRecurrence",
+      "StatusReport"
+    ],
+    "Events": {}
+  },
+  "TaskRequestAcceptItemClass": {
+    "Properties": {},
+    "Methods": [
+      "Close",
+      "Copy",
+      "Delete",
+      "Display",
+      "GetAssociatedTask",
+      "GetConversation",
+      "ItemEvents_Event_add_AttachmentAdd",
+      "ItemEvents_Event_add_AttachmentRead",
+      "ItemEvents_Event_add_BeforeAttachmentSave",
+      "ItemEvents_Event_add_BeforeCheckNames",
+      "ItemEvents_Event_add_Close",
+      "ItemEvents_Event_add_CustomAction",
+      "ItemEvents_Event_add_CustomPropertyChange",
+      "ItemEvents_Event_add_Forward",
+      "ItemEvents_Event_add_Open",
+      "ItemEvents_Event_add_PropertyChange",
+      "ItemEvents_Event_add_Read",
+      "ItemEvents_Event_add_Reply",
+      "ItemEvents_Event_add_ReplyAll",
+      "ItemEvents_Event_add_Send",
+      "ItemEvents_Event_add_Write",
+      "ItemEvents_Event_remove_AttachmentAdd",
+      "ItemEvents_Event_remove_AttachmentRead",
+      "ItemEvents_Event_remove_BeforeAttachmentSave",
+      "ItemEvents_Event_remove_BeforeCheckNames",
+      "ItemEvents_Event_remove_Close",
+      "ItemEvents_Event_remove_CustomAction",
+      "ItemEvents_Event_remove_CustomPropertyChange",
+      "ItemEvents_Event_remove_Forward",
+      "ItemEvents_Event_remove_Open",
+      "ItemEvents_Event_remove_PropertyChange",
+      "ItemEvents_Event_remove_Read",
+      "ItemEvents_Event_remove_Reply",
+      "ItemEvents_Event_remove_ReplyAll",
+      "ItemEvents_Event_remove_Send",
+      "ItemEvents_Event_remove_Write",
+      "Move",
+      "PrintOut",
+      "Save",
+      "SaveAs",
+      "ShowCategoriesDialog"
+    ],
+    "Events": {}
+  },
+  "TaskRequestDeclineItemClass": {
+    "Properties": {},
+    "Methods": {},
+    "Events": {}
+  },
+  "TaskRequestItemClass": {
+    "Properties": {},
+    "Methods": {},
+    "Events": {}
+  },
+  "TaskRequestUpdateItemClass": {
+    "Properties": {},
+    "Methods": {},
+    "Events": {}
+  },
+  "TasksModuleClass": {
+    "Properties": {}
+  },
+  "TextRuleConditionClass": {
+    "Properties": {}
+  },
+  "TimelineViewClass": {
+    "Properties": {},
+    "Methods": {}
+  },
+  "TimeZoneClass": {
+    "Properties": {}
+  },
+  "TimeZonesClass": {
+    "Properties": {},
+    "Methods": {}
+  },
+  "ToOrFromRuleConditionClass": {
+    "Properties": {}
+  },
+  "UserDefinedPropertiesClass": {
+    "Properties": {},
+    "Methods": {}
+  },
+  "UserDefinedPropertyClass": {
+    "Properties": {},
+    "Methods": {}
+  },
+  "UserProperties": {
+    "Properties": {},
+    "Methods": [
+      "Add",
+      "Find",
+      "Remove"
+    ]
+  },
+  "UserProperty": {
+    "Properties": {},
+    "Methods": {}
+  },
+  "View": {
+    "Properties": [
+      "Application",
+      "Class",
+      "Filter",
+      "Language",
+      "LockUserChanges",
+      "Name",
+      "Parent",
+      "SaveOption",
+      "Session",
+      "Standard",
+      "ViewType",
+      "XML"
+    ],
+    "Methods": {}
+  },
+  "ViewFieldClass": {
+    "Properties": {}
+  },
+  "ViewFieldsClass": {
+    "Properties": {},
+    "Methods": {}
+  },
+  "ViewFontClass": {
+    "Properties": {}
+  },
+  "ViewsClass": {
+    "Properties": {},
+    "Methods": {},
+    "Events": {}
+  }
+}

@@ -22,21 +22,21 @@
 
 <div align="left">
 <ol>
-	<li>Run `compile.sh` to compile `Main` class and then proceed to run `run.sh`</li>
-	<li>`Main` class shall retrieve all inbox emails with subject title containing `Case Notification` & `CaseID` and output all JSON-formatted case details onto console.</li>
+	<li>Run <code>.sh</code> to compile <code>Main</code> class and then proceed to run <code>run.sh</code></li>
+	<li><code>Main</code> class shall retrieve all inbox emails with subject title containing <code>Case Notification</code> and <code>CaseID</code> and output all JSON-formatted case details onto console.</li>
 </ol>
-Assume that embedded case details follow the below format:
+#### Assume that embedded case details follow the below format:
 <img src='https://raw.githubusercontent.com/incubated-geek-cc/Java-COM-bridge_Demo/main/img/sample_case_details.png' width="800px" />
 
-Dependencies:
+#### Dependencies:
 <table>
 	<thead>
 		<tr><th>Library</th><th>Description</th></tr>
 	</thead>
 	<tbody>
-		<tr><td>`jacob-1.18-x64.dll` and `lib/jacob-1.18.jar` </td><td>For interfacing with Microsoft applications.</td></tr>
-		<tr><td>`lib/jsoup-1.15.3.jar` </td><td>For parsing HTML-formatted email message.</td></tr>
-		<tr><td>`lib/json-org-20140107.jar` </td><td>To format processed output into `JSON`.</td></tr>
+		<tr><td><code>jacob-1.18-x64.dll</code> and <code>lib/jacob-1.18.jar</code></td><td>For interfacing with Microsoft applications.</td></tr>
+		<tr><td><code>lib/jsoup-1.15.3.jar</code> </td><td>For parsing HTML-formatted email message.</td></tr>
+		<tr><td><code>lib/json-org-20140107.jar</code></td><td>To format processed output into <code>JSON</code></td></tr>
 	</tbody>
 </table>
 </div>

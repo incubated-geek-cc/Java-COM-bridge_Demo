@@ -15,9 +15,10 @@
 <ul>
 	<li>📧 Email parsing on Outlook Exchange client.</li>
 </ul>
-</div>
 
 #### For a full list of functionalities for Outlook, refer to <a href="https://learn.microsoft.com/en-us/dotnet/api/microsoft.office.interop.outlook.application" target="_blank">Office Outlook Primary Interop Assemply</a>. (namespaces with properties & methods have been compiled at <a href="https://raw.githubusercontent.com/incubated-geek-cc/Java-COM-bridge_Demo/main/office_outlook_interop_assembly.json" target="_blank">office_outlook_interop_assembly.json</a>.)
+
+</div>
 
 </div>
 

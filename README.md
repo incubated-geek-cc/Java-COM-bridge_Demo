@@ -49,7 +49,7 @@
 ### ✍ Read related post here
 [**Article :: Link :: Automate Outlook Email Tasks Using Jacob (Java-COM bridge)**](https://geek-cc.medium.com/automate-outlook-email-tasks-using-jacob-java-com-bridge-3cf84ced2286)
 <br>
-[**Article :: Link :: Sending and Reading Outlook Emails Using Java - Jacob (Java-COM bridge)**](#)
+[**Article :: Link :: Sending and Reading Outlook Emails Using Java - Jacob (Java-COM bridge)**](https://geek-cc.medium.com/sending-and-reading-outlook-emails-using-java-jacob-java-com-bridge-87f400bb2afc)
 
 ### 🔌 Overall workflow
 #### Part 1.

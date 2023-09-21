@@ -46,17 +46,14 @@
 </table>
 </div>
 
-### ✍ Read related post here
-[**Article :: Link :: Automate Outlook Email Tasks Using Jacob (Java-COM bridge)**](https://geek-cc.medium.com/automate-outlook-email-tasks-using-jacob-java-com-bridge-3cf84ced2286)
+### ✍ Read related posts here
+[**Article :: Link :: Automate Outlook Email Tasks Using Jacob (Java-COM bridge)**](https://mobileappcircular.com/automate-outlook-email-tasks-using-jacob-java-com-bridge-3cf84ced2286)
 <br>
+<img src='https://raw.githubusercontent.com/incubated-geek-cc/Java-COM-bridge_Demo/main/img/overall_workflow.png' width="600px" />
+<br><br>
 [**Article :: Link :: Sending and Reading Outlook Emails Using Java - Jacob (Java-COM bridge)**](https://geek-cc.medium.com/sending-and-reading-outlook-emails-using-java-jacob-java-com-bridge-87f400bb2afc)
-
-### 🔌 Overall workflow
-#### Part 1.
-<img src='https://raw.githubusercontent.com/incubated-geek-cc/Java-COM-bridge_Demo/main/img/overall_workflow.png' width="800px" />
-
-#### Part 2.
-<img src='https://raw.githubusercontent.com/incubated-geek-cc/Java-COM-bridge_Demo/main/img/part_ii_use_cases.png' width="800px" />
+<br>
+<img src='https://raw.githubusercontent.com/incubated-geek-cc/Java-COM-bridge_Demo/main/img/part_ii_use_cases.png' width="600px" />
 
 <p>— <b>Join me on 📝 <b>Medium</b> at <a href='https://medium.com/@geek-cc' target='_blank'>~ ξ(🎀˶❛◡❛) @geek-cc</a></b></p>
 
